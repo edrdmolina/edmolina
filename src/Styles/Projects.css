@@ -1,0 +1,24 @@
+.Projects {
+    background-color: rgba(64, 46, 50, .9);
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: flex-start;
+    overflow-y: scroll;
+}
+
+.Projects .Heading {
+    margin-top: 2rem;
+}
+
+.Project-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2rem 0;
+    animation:
+    reveal 1.5s ease-in ;
+}

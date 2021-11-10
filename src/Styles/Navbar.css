@@ -1,0 +1,41 @@
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(210, 105, 30, 0.850);
+    height: 100vh;
+}
+
+.Logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.466);
+    width: 90%;
+    max-width: 500px;
+}
+
+.Link-decoration {
+    color: white;
+    text-decoration: none;
+    margin: 0 2rem;
+}
+
+.Link-decoration:hover {
+    transform: scale(1.05);
+}
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 576px) {
+    .Link-decoration {
+        font-size: 10px;
+    }
+}
