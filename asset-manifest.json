@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/edmolina/static/css/main.2359a6e5.chunk.css",
-    "main.js": "/edmolina/static/js/main.4c78cae2.chunk.js",
-    "main.js.map": "/edmolina/static/js/main.4c78cae2.chunk.js.map",
+    "main.css": "/edmolina/static/css/main.c8cde7ee.chunk.css",
+    "main.js": "/edmolina/static/js/main.668b084a.chunk.js",
+    "main.js.map": "/edmolina/static/js/main.668b084a.chunk.js.map",
     "runtime-main.js": "/edmolina/static/js/runtime-main.320db88f.js",
     "runtime-main.js.map": "/edmolina/static/js/runtime-main.320db88f.js.map",
     "static/js/2.ef613355.chunk.js": "/edmolina/static/js/2.ef613355.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.9c88d3b8.chunk.js": "/edmolina/static/js/3.9c88d3b8.chunk.js",
     "static/js/3.9c88d3b8.chunk.js.map": "/edmolina/static/js/3.9c88d3b8.chunk.js.map",
     "index.html": "/edmolina/index.html",
-    "static/css/main.2359a6e5.chunk.css.map": "/edmolina/static/css/main.2359a6e5.chunk.css.map",
+    "static/css/main.c8cde7ee.chunk.css.map": "/edmolina/static/css/main.c8cde7ee.chunk.css.map",
     "static/js/2.ef613355.chunk.js.LICENSE.txt": "/edmolina/static/js/2.ef613355.chunk.js.LICENSE.txt",
     "static/media/ChuckNorris1.3dba9b83.png": "/edmolina/static/media/ChuckNorris1.3dba9b83.png",
     "static/media/KeyHolder1.3ebd1a05.png": "/edmolina/static/media/KeyHolder1.3ebd1a05.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.320db88f.js",
     "static/js/2.ef613355.chunk.js",
-    "static/css/main.2359a6e5.chunk.css",
-    "static/js/main.4c78cae2.chunk.js"
+    "static/css/main.c8cde7ee.chunk.css",
+    "static/js/main.668b084a.chunk.js"
   ]
 }
