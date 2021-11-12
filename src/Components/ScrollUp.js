@@ -7,15 +7,8 @@ import '../Styles/ScrollUp.css'
 export class ScrollUp extends Component {
 
     handleClick = () => {
-        // find height of entire document
-        let body = document.body;;
-        let html = document.documentElement;
-
-        let height = Math.max(body.scrollHeight, body.offsetHeight, 
-            html.clientHeight, html.scrollHeight, html.offsetHeight);
-
-        window.scrollBy({
-            top: -height,
+        window.scroll({
+            top: 0,
             left: 0,
             behavior: 'smooth'
         });

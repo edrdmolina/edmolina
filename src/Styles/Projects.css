@@ -6,6 +6,7 @@
     align-items: center;    
     justify-content: flex-start;
     overflow-y: scroll;
+    padding-bottom: 150px;
 }
 
 .Projects .Heading {
