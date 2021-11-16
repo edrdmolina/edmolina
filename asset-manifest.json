@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/edmolina/static/css/main.c8cde7ee.chunk.css",
-    "main.js": "/edmolina/static/js/main.668b084a.chunk.js",
-    "main.js.map": "/edmolina/static/js/main.668b084a.chunk.js.map",
+    "main.js": "/edmolina/static/js/main.8cba6d26.chunk.js",
+    "main.js.map": "/edmolina/static/js/main.8cba6d26.chunk.js.map",
     "runtime-main.js": "/edmolina/static/js/runtime-main.320db88f.js",
     "runtime-main.js.map": "/edmolina/static/js/runtime-main.320db88f.js.map",
     "static/js/2.ef613355.chunk.js": "/edmolina/static/js/2.ef613355.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.320db88f.js",
     "static/js/2.ef613355.chunk.js",
     "static/css/main.c8cde7ee.chunk.css",
-    "static/js/main.668b084a.chunk.js"
+    "static/js/main.8cba6d26.chunk.js"
   ]
 }
