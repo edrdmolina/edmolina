@@ -28,8 +28,8 @@ const PortfolioData = {
         {
             name: "Chuck Norris Joke Generator",
             description:  "Using axios and cheerio, I scraped over 90 Chuck Norris jokes and saved them to a JSON file. From there, I set up a backend API with express that serves a random joke every time it's called. On the client side it's a simple button that gives you a random Chuck Norris Joke. Overall it was a simple afternoon exercise that tought me the basics of web scraping.",
-            appUrl: "https://chuck-norris-generator.herokuapp.com/",
-            githubUrl: "https://github.com/edrdmolina/Chuck-Norris-Scraper",
+            appUrl: "https://edrdmolina.github.io/Chuck-Norris-Jokes/",
+            githubUrl: "https://github.com/edrdmolina/Chuck-Norris-Jokes",
             image: ChuckNorris1
         },
     ]
