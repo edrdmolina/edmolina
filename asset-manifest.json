@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/edmolina/static/css/main.c8cde7ee.chunk.css",
-    "main.js": "/edmolina/static/js/main.8cba6d26.chunk.js",
-    "main.js.map": "/edmolina/static/js/main.8cba6d26.chunk.js.map",
-    "runtime-main.js": "/edmolina/static/js/runtime-main.320db88f.js",
-    "runtime-main.js.map": "/edmolina/static/js/runtime-main.320db88f.js.map",
-    "static/js/2.ef613355.chunk.js": "/edmolina/static/js/2.ef613355.chunk.js",
-    "static/js/2.ef613355.chunk.js.map": "/edmolina/static/js/2.ef613355.chunk.js.map",
-    "static/js/3.9c88d3b8.chunk.js": "/edmolina/static/js/3.9c88d3b8.chunk.js",
-    "static/js/3.9c88d3b8.chunk.js.map": "/edmolina/static/js/3.9c88d3b8.chunk.js.map",
-    "index.html": "/edmolina/index.html",
-    "static/css/main.c8cde7ee.chunk.css.map": "/edmolina/static/css/main.c8cde7ee.chunk.css.map",
-    "static/js/2.ef613355.chunk.js.LICENSE.txt": "/edmolina/static/js/2.ef613355.chunk.js.LICENSE.txt",
-    "static/media/ChuckNorris1.3dba9b83.png": "/edmolina/static/media/ChuckNorris1.3dba9b83.png",
-    "static/media/KeyHolder1.3ebd1a05.png": "/edmolina/static/media/KeyHolder1.3ebd1a05.png",
-    "static/media/ReactList1.0c9c76fe.png": "/edmolina/static/media/ReactList1.0c9c76fe.png",
-    "static/media/Resume.2569b224.pdf": "/edmolina/static/media/Resume.2569b224.pdf",
-    "static/media/index.css": "/edmolina/static/media/cargo.e5ff5f20.svg"
+    "main.css": "/static/css/main.dff61684.chunk.css",
+    "main.js": "/static/js/main.72d5622c.chunk.js",
+    "main.js.map": "/static/js/main.72d5622c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a806fc6f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a806fc6f.js.map",
+    "static/js/2.ef613355.chunk.js": "/static/js/2.ef613355.chunk.js",
+    "static/js/2.ef613355.chunk.js.map": "/static/js/2.ef613355.chunk.js.map",
+    "static/js/3.9c88d3b8.chunk.js": "/static/js/3.9c88d3b8.chunk.js",
+    "static/js/3.9c88d3b8.chunk.js.map": "/static/js/3.9c88d3b8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.dff61684.chunk.css.map": "/static/css/main.dff61684.chunk.css.map",
+    "static/js/2.ef613355.chunk.js.LICENSE.txt": "/static/js/2.ef613355.chunk.js.LICENSE.txt",
+    "static/media/ChuckNorris1.3dba9b83.png": "/static/media/ChuckNorris1.3dba9b83.png",
+    "static/media/KeyHolder1.3ebd1a05.png": "/static/media/KeyHolder1.3ebd1a05.png",
+    "static/media/ReactList1.0c9c76fe.png": "/static/media/ReactList1.0c9c76fe.png",
+    "static/media/Resume.2569b224.pdf": "/static/media/Resume.2569b224.pdf",
+    "static/media/index.css": "/static/media/cargo.e5ff5f20.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.320db88f.js",
+    "static/js/runtime-main.a806fc6f.js",
     "static/js/2.ef613355.chunk.js",
-    "static/css/main.c8cde7ee.chunk.css",
-    "static/js/main.8cba6d26.chunk.js"
+    "static/css/main.dff61684.chunk.css",
+    "static/js/main.72d5622c.chunk.js"
   ]
 }
