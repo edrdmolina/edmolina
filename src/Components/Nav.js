@@ -24,6 +24,7 @@ export class Nav extends Component {
                 <div className='links'>
                     <NavLink onClick={this.handleClick} activeClassName='active-link' className='link' to='/about'>About</NavLink>
                     <NavLink onClick={this.handleClick} activeClassName='active-link' className='link' to='/projects'>Projects</NavLink>
+                    <NavLink onClick={this.handleClick} activeClassName='active-link' className='link' to='/photos'>Photos</NavLink>
                     <NavLink onClick={this.handleClick} activeClassName='active-link' className='link' to='/contact'>Contact</NavLink>
                 </div>
             </div>
