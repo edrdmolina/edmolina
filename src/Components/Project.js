@@ -9,8 +9,9 @@ function Project(props) {
         <div className='Project'>
             <img className='Project-image' src={image} alt={name}/>
             <div className='Project-content'>
-                <div className='Project-title'>
-                    <h4>{name}</h4>
+                <h2>{name}</h2>
+                <div className='Project-description'>
+                    <p>{description}</p>
                     <div className='Project-links'>
                         <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-github fa-2x"></i>
@@ -19,9 +20,6 @@ function Project(props) {
                             <i className="fas fa-external-link-alt fa-2x"></i>
                         </a>
                     </div>
-                </div>
-                <div className='Project-description'>
-                    <p>{description}</p>
                 </div>
             </div>
         </div>
