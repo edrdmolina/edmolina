@@ -10,6 +10,7 @@ import TabebuiaTree from './Images/Photos/TabebuiaTree.jpg';
 import BendingArc from './Images/Photos/BendingArc.jpg';
 import TheLandmark from './Images/Photos/The-Landmark.jpg';
 import SinnersParadise from './Images/Photos/Sinners-Paradise.jpg';
+import LoopRoadCar from './Images/Photos/loopRoadCar.jpg';
 
 const PortfolioData = {
     contact: {
@@ -91,6 +92,13 @@ const PortfolioData = {
             camera: 'Pentax K1000',
             filmStock: 'Kodak Portra 400',
             image: SinnersParadise
+        },
+        {
+            name: 'Loop Road Chevy',
+            location: 'Loop Road Everglades National Park',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Portra 400',
+            image: LoopRoadCar
         },
 
     ]
