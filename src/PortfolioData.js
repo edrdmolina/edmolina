@@ -2,6 +2,15 @@ import ChuckNorris1 from './Images/ChuckNorris1.png';
 import KeyHolder1 from './Images/KeyHolder1.png';
 import ReactList1 from './Images/ReactList1.png';
 
+// Film photos
+import ChangiTrain from './Images/Photos/Changi-train.jpg';
+import ChinaTownSingapore from './Images/Photos/ChinaTown-Singapore.jpg';
+import SingaporeFlyer from './Images/Photos/Singapore-Flyer.jpg';
+import TabebuiaTree from './Images/Photos/TabebuiaTree.jpg';
+import BendingArc from './Images/Photos/BendingArc.jpg';
+import TheLandmark from './Images/Photos/The-Landmark.jpg';
+import SinnersParadise from './Images/Photos/Sinners-Paradise.jpg';
+
 const PortfolioData = {
     contact: {
         name: "eduardo molina",
@@ -32,6 +41,58 @@ const PortfolioData = {
             githubUrl: "https://github.com/edrdmolina/Chuck-Norris-Jokes",
             image: ChuckNorris1
         },
+    ],
+    filmPhotos: [
+        {
+            name: 'Changi Train Station',
+            location: 'Singapore',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Ultramax 400',
+            image: ChangiTrain
+        },
+        {
+            name: 'China Town',
+            location: 'Singapore',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Ultramax 400',
+            image: ChinaTownSingapore
+        },
+        {
+            name: 'The Singapore Flyer',
+            location: 'Singapore',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Ultramax 400',
+            image: SingaporeFlyer
+        },
+        {
+            name: 'Tabebuia Tree',
+            location: 'Flora Wylie St. Petersburg',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Portra 400',
+            image: TabebuiaTree
+        },
+        {
+            name: 'Bending Arc',
+            location: 'St. Petersburg Pier',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Portra 400',
+            image: BendingArc
+        },
+        {
+            name: 'The Landmark Motel',
+            location: 'St. Petersburg',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Portra 400',
+            image: TheLandmark
+        },
+        {
+            name: 'Sinners Paradise',
+            location: 'St. Petersburg',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Portra 400',
+            image: SinnersParadise
+        },
+
     ]
 }
 

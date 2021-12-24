@@ -1,0 +1,58 @@
+.Photo {
+    width: 95%;
+    max-width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 2rem;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.Photo img {
+    height: 500px;
+    width: 500px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.Photo img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 10px rgba(47, 0, 255, 0.25);
+    border-radius: 10px;
+}
+
+.Content {
+    width: 500px;
+    background-color: rgba(210, 105, 30, 0.800);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.Content h2 {
+    width: 95%;
+    height: 10%;
+    border-bottom: 1px white solid;
+    font-size: 32px;
+    padding-top: 1rem;
+}
+
+.Content p {
+    width: 95%;
+    height: 60%;
+    font-size: 24px;
+}
+
+.Data {
+    height: 30%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Data span {
+    font-size: 24px;
+}

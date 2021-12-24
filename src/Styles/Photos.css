@@ -14,12 +14,18 @@
     background: transparent;
 }
 
+.Photos .Heading {
+    margin-top: 2rem;
+}
+
 .Photos-container {
     width: 100%;
+    max-width: 3000px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 2rem 0;
     animation:
     reveal 1.5s ease-in ;
