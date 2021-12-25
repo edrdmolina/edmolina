@@ -1,6 +1,7 @@
 import ChuckNorris1 from './Images/ChuckNorris1.png';
 import KeyHolder1 from './Images/KeyHolder1.png';
 import ReactList1 from './Images/ReactList1.png';
+import ReactWeather1 from './Images/ReactWeather1.png';
 
 // Film photos
 import ChangiTrain from './Images/Photos/Changi-train.jpg';
@@ -27,6 +28,13 @@ const PortfolioData = {
             appUrl: "https://listapp-molina.herokuapp.com/",
             githubUrl: "https://github.com/edrdmolina/React-List-App",
             image: ReactList1
+        },
+        {
+            name: "React Weather",
+            description: "React Weather app based on the look and feel of the iOS weather app. You can check the weather anywhere around the globe using the Open Weather API. The app supplies you with hourly forecast for 48 hours, Daily forecast for 8 days and current weather information such as temperature, humidity wind speed and direction and even sunrise and sunset times.",
+            appUrl: "https://edrdmolina.github.io/React-Weather/",
+            githubUrl: "https://github.com/edrdmolina/React-Weather",
+            image: ReactWeather1
         },
         {
             name: "Key-Holder",
