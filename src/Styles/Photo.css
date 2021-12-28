@@ -29,6 +29,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     border-radius: 0px 0px 10px 10px;
 }
 
@@ -40,20 +41,12 @@
     padding-top: 1rem;
 }
 
-.Content p {
-    width: 95%;
-    height: 60%;
-    font-size: 24px;
-    
-}
-
 .Data {
-    height: 30%;
+    height: 80%;
     width: 95%;
     display: flex;
-    margin-top: 1rem;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .Data span {
