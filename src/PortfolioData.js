@@ -1,7 +1,9 @@
+// Project images
 import ChuckNorris1 from './Images/ChuckNorris1.png';
 import KeyHolder1 from './Images/KeyHolder1.png';
 import ReactList1 from './Images/ReactList1.png';
 import ReactWeather1 from './Images/ReactWeather1.png';
+import Multipurpose from './Images/Multipurpose.png';
 
 // Film photos
 import ChangiTrain from './Images/Photos/Changi-train.jpg';
@@ -35,6 +37,13 @@ const PortfolioData = {
             appUrl: "https://edrdmolina.github.io/React-Weather/",
             githubUrl: "https://github.com/edrdmolina/React-Weather",
             image: ReactWeather1
+        },
+        {
+            name: "Multipurpose Express API",
+            description: "The Multipurpose Express API was designed to serve as a flexible back-end server for multiple front-end projects. The API has multiple routes that anyone can use. Below are the instructions to use the API routes for Weather and Chuck Norris jokes.",
+            appUrl: "https://multi-purpose-api.herokuapp.com/",
+            githubUrl: "https://github.com/edrdmolina/Multipurpose-ExpressJS",
+            image: Multipurpose
         },
         {
             name: "Key-Holder",
