@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.35d501cf.chunk.css",
-    "main.js": "/static/js/main.7331b939.chunk.js",
-    "main.js.map": "/static/js/main.7331b939.chunk.js.map",
+    "main.js": "/static/js/main.f66dba81.chunk.js",
+    "main.js.map": "/static/js/main.f66dba81.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7bf80ee8.js",
     "runtime-main.js.map": "/static/js/runtime-main.7bf80ee8.js.map",
     "static/js/2.19bd220f.chunk.js": "/static/js/2.19bd220f.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/ChinaTown-Singapore.97cb7689.jpg": "/static/media/ChinaTown-Singapore.97cb7689.jpg",
     "static/media/ChuckNorris1.3dba9b83.png": "/static/media/ChuckNorris1.3dba9b83.png",
     "static/media/KeyHolder1.3ebd1a05.png": "/static/media/KeyHolder1.3ebd1a05.png",
+    "static/media/Multipurpose.fd0a77ed.png": "/static/media/Multipurpose.fd0a77ed.png",
     "static/media/ReactList1.0c9c76fe.png": "/static/media/ReactList1.0c9c76fe.png",
     "static/media/ReactWeather1.db7cbd24.png": "/static/media/ReactWeather1.db7cbd24.png",
     "static/media/Resume.2569b224.pdf": "/static/media/Resume.2569b224.pdf",
@@ -31,6 +32,6 @@
     "static/js/runtime-main.7bf80ee8.js",
     "static/js/2.19bd220f.chunk.js",
     "static/css/main.35d501cf.chunk.css",
-    "static/js/main.7331b939.chunk.js"
+    "static/js/main.f66dba81.chunk.js"
   ]
 }
