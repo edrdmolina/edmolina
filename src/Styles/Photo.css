@@ -1,9 +1,10 @@
 .Photo {
     width: 95%;
-    max-width: 1000px;
-    height: 500px;
+    max-width: 500px;
+    height: 700px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: flex-start;
     color: white;
     margin: 2rem;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
@@ -12,7 +13,7 @@
 .Photo img {
     height: 500px;
     aspect-ratio: 1/1;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .Photo img:hover {
@@ -23,18 +24,17 @@
 }
 
 .Content {
-    width: 500px;
+    height: 200px;
     background-color: rgba(210, 105, 30, 0.800);
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .Content h2 {
     width: 95%;
-    height: 10%;
+    height: 20%;
     border-bottom: 1px white solid;
     font-size: 32px;
     padding-top: 1rem;
@@ -44,12 +44,14 @@
     width: 95%;
     height: 60%;
     font-size: 24px;
+    
 }
 
 .Data {
     height: 30%;
     width: 95%;
     display: flex;
+    margin-top: 1rem;
     flex-direction: column;
     justify-content: space-evenly;
 }
@@ -58,35 +60,11 @@
     font-size: 24px;
 }
 
-@media (max-width: 992px) {
-    .Photo {
-        flex-direction: column;
-        width: 500px;
-        height: 700px;
-    }
-
-    .Photo img {
-        border-radius: 10px 10px 0px 0px;
-    }
-
-    .Content {
-        height: 200px;
-        border-radius: 0px 0px 10px 10px;
-        
-    }
-
-    .Content h2 {
-        padding-bottom: 1rem;
-        padding-top: 1rem;
-    }
-
-    .Data {
-        margin: 2rem 0rem;
-    }
-}
-
 @media (max-width: 576px) {
     .Photo, .Content {
-        width: 100%;
+        width: 100vw;
+    }
+    .Photo img {
+        width: 100vw;
     }
 }
