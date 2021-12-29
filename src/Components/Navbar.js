@@ -15,7 +15,6 @@ const githubUrl = contact.github;
 const linkedinUrl = contact.linkedin
 
 export class Navbar extends Component {
-
     render() {
         return (
             <div className='Navbar'>
@@ -25,10 +24,10 @@ export class Navbar extends Component {
                 <Nav />
                 <div className='Social'>
                     <a href={githubUrl} className='Link-decoration' target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-github fa-4x"></i>
+                        <i className="fab fa-github"></i>
                     </a>
                     <a href={linkedinUrl} className='Link-decoration' target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-linkedin-in fa-4x"></i>
+                        <i className="fab fa-linkedin-in"></i>
                     </a>
                 </div>
             </div>

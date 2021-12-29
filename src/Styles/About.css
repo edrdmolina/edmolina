@@ -136,7 +136,7 @@ from, to { border-color: transparent }
     }
 
     .Typewriter h1 {
-        font-size: 25px;
+        font-size: 20px;
         letter-spacing: 0px;
     }
 
@@ -145,20 +145,20 @@ from, to { border-color: transparent }
     }
 
     .Reveal h3 {
-        font-size: 22px;
+        font-size: 19px;
         letter-spacing: 0px;
     }
 
     .Reveal ul li {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .Reveal ul li p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .Reveal p {
-        font-size: 18px;
+        font-size: 16px;
         letter-spacing: 0px;
     }
 }

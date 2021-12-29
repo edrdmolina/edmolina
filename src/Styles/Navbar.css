@@ -28,6 +28,10 @@
     margin: 0 2rem;
 }
 
+.Link-decoration i {
+    font-size: 45px;
+}
+
 .Link-decoration:hover {
     transform: scale(1.05);
 }
@@ -35,7 +39,13 @@
 
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 576px) {
-    .Link-decoration {
-        font-size: 10px;
+    .Link-decoration i {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .Link-decoration i {
+        font-size: 35px;
     }
 }
