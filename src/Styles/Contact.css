@@ -14,6 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 50px 0;
 }
 
 .Heading h1 {
@@ -28,20 +29,6 @@
     border-right: .1em solid rgb(255, 255, 255); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-}
-
-.Message {
-    color: white;
-    height: 20%;
-    width: 80%;
-    text-align: center;
-    animation:
-    reveal 1.5s ease-in ;
-}
-
-.Message p {
-    padding: 1rem 3rem;
-    font-size: 30px;
 }
 
 .Methods {

@@ -53,12 +53,6 @@ export class Contact extends Component {
                 <div className='Heading'>
                     <h1>Contact</h1>
                 </div>
-                <div className='Message'>
-                    <p>
-                        Glad to see you've made it to this page.<br/>
-                        Looking forward to hearing from you!
-                    </p>
-                </div>
                 <div className='Methods'>
                     <CopyToClipboard 
                         text='edrdmolina11@gmail.com' className='Button-style'

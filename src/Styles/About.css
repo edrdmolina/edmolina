@@ -6,7 +6,7 @@
     background-color: rgba(64, 46, 50, 0.9);
     min-height: 95vh;
     overflow-y: scroll;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 } 
 
 .About::-webkit-scrollbar {
@@ -33,23 +33,21 @@
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .1em solid rgb(255, 255, 255); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    margin-top: 2rem;
+    margin: 50px auto; /* Gives that scrolling effect as the typing happens */
 }
 
 .Reveal {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* align-items: center; */
     height: 85%;
-    width: 80%;
-    max-width: 1200px;
-    animation:
-    reveal 1.5s ease-in ;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1300px;
+    animation: reveal 1.5s ease-in;
 }
 
-.Reveal h3 {
+.skills_certs h3 {
     color: white;
     font-family: 'RobotoMono';
     font-size: 35px;
@@ -66,19 +64,6 @@
     text-align: left;
     text-indent: 1.5rem;
     opacity: 1;
-}
-
-.Reveal ul li {
-    color: white;
-    font-family: 'RobotoMono';
-    font-size: 30px;
-}
-
-
-.Reveal ul li p {
-    color: white;
-    font-family: 'RobotoMono';
-    font-size: 25px;
 }
 
 .Resume {
@@ -107,6 +92,37 @@
     background: linear-gradient(to left, #d2691ee0, #DFE0DFe0);
 }
 
+.skills_certs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.list {
+    width: 45%;
+}
+
+.list h3 {
+    border-bottom: 1px solid white;;
+}
+
+.list ul li {
+    color: white;
+    font-family: 'RobotoMono';
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+#certificates li {
+    cursor: pointer;
+}
+
+#certificates li:hover {
+    text-decoration: underline;
+}
+
 /* Obtained from https://css-tricks.com/snippets/css/typewriter-effect/ */
 /* The typing effect */
 @keyframes typing {
@@ -126,9 +142,9 @@ from, to { border-color: transparent }
 }
 
 /* Extra small devices (phones, less than 576px) */
-@media (max-width: 576px) {
+@media (max-width: 600px) {
     .About {
-        height: 170vh;
+        height: 100vh;
     }
 
     .Typewriter {
@@ -140,25 +156,29 @@ from, to { border-color: transparent }
         letter-spacing: 0px;
     }
 
-    .Reveal {
-        height: 90%;
+    .Reveal p {
+        font-size: 16px;
+        letter-spacing: 0px;
+        margin: 0 15px; 
     }
 
-    .Reveal h3 {
+    .skills_certs {
+        flex-direction: column;
+    }
+
+    .skills_certs div h3 {
+        text-align: center;
         font-size: 19px;
         letter-spacing: 0px;
     }
 
-    .Reveal ul li {
-        font-size: 16px;
+    .list {
+        margin: 0 auto;
+        width: 80%;
     }
 
-    .Reveal ul li p {
+    .list ul li {
+        margin: 15px 0;
         font-size: 16px;
-    }
-
-    .Reveal p {
-        font-size: 16px;
-        letter-spacing: 0px;
     }
 }

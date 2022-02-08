@@ -4,6 +4,10 @@ import KeyHolder1 from './Images/KeyHolder1.png';
 import ReactList1 from './Images/ReactList1.png';
 import ReactWeather1 from './Images/ReactWeather1.png';
 import Multipurpose from './Images/Multipurpose.png';
+import PomodoroTimer from './Images/PomodoroTimer1.png';
+import JSCalculator from './Images/JSCalculator1.png';
+import QuoteGenerator from './Images/QuoteGenerator1.png';
+import DrumMachine from './Images/DrumMachine1.png';
 
 // Film photos
 import ChangiTrain from './Images/Photos/Changi-train.jpg';
@@ -58,6 +62,34 @@ const PortfolioData = {
             appUrl: "https://edrdmolina.github.io/Chuck-Norris-Jokes/",
             githubUrl: "https://github.com/edrdmolina/Chuck-Norris-Jokes",
             image: ChuckNorris1
+        },
+        {
+            name: "Pomodoro Timer",
+            description:  "A pomodoro study technique timer created with the React Front End Technology. I created this project in order to complete the freeCodeCamp Front End Development Libraries certificate.",
+            appUrl: "https://edrdmolina.github.io/Pomodoro-Timer/",
+            githubUrl: "https://github.com/edrdmolina/Pomodoro-Timer",
+            image: PomodoroTimer
+        },
+        {
+            name: "JavaScript Calculator",
+            description:  "JavaScript Calculator using the Formula/Expression Logic created with the React Front End Technology. I created this project in order to complete the freeCodeCamp Front End Development Libraries certificate.",
+            appUrl: "https://edrdmolina.github.io/JS-Calculator/",
+            githubUrl: "https://github.com/edrdmolina/JS-Calculator",
+            image: JSCalculator
+        },
+        {
+            name: "Quote Generator",
+            description:  "Random quote generator with a twitter share button created with the React Front End Technology. I created this project in order to complete the freeCodeCamp Front End Development Libraries certificate.",
+            appUrl: "https://edrdmolina.github.io/fcc-Quote-Generator/",
+            githubUrl: "https://github.com/edrdmolina/fcc-Quote-Generator",
+            image: QuoteGenerator
+        },
+        {
+            name: "Drum Machine",
+            description:  "Drum Machine app created with the React Front End Technology. I created this project in order to complete the freeCodeCamp Front End Development Libraries certificate.",
+            appUrl: "https://edrdmolina.github.io/Drum-Machine/",
+            githubUrl: "https://github.com/edrdmolina/Drum-Machine",
+            image: DrumMachine
         },
     ],
     filmPhotos: [
