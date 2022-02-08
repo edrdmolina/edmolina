@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.52412c5b.chunk.css",
-    "main.js": "/static/js/main.de0e681c.chunk.js",
-    "main.js.map": "/static/js/main.de0e681c.chunk.js.map",
+    "main.css": "/static/css/main.632aafee.chunk.css",
+    "main.js": "/static/js/main.d787ab0a.chunk.js",
+    "main.js.map": "/static/js/main.d787ab0a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7bf80ee8.js",
     "runtime-main.js.map": "/static/js/runtime-main.7bf80ee8.js.map",
     "static/js/2.19bd220f.chunk.js": "/static/js/2.19bd220f.chunk.js",
@@ -10,14 +10,20 @@
     "static/js/3.82fee29c.chunk.js": "/static/js/3.82fee29c.chunk.js",
     "static/js/3.82fee29c.chunk.js.map": "/static/js/3.82fee29c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.52412c5b.chunk.css.map": "/static/css/main.52412c5b.chunk.css.map",
+    "static/css/main.632aafee.chunk.css.map": "/static/css/main.632aafee.chunk.css.map",
     "static/js/2.19bd220f.chunk.js.LICENSE.txt": "/static/js/2.19bd220f.chunk.js.LICENSE.txt",
+    "static/media/BOOTSTRAP4COLT-STEELECERT.5c3a98d0.pdf": "/static/media/BOOTSTRAP4COLT-STEELECERT.5c3a98d0.pdf",
     "static/media/BendingArc.a7af173e.jpg": "/static/media/BendingArc.a7af173e.jpg",
+    "static/media/CS50xCertificate.10be1816.pdf": "/static/media/CS50xCertificate.10be1816.pdf",
     "static/media/Changi-train.32b3aeb5.jpg": "/static/media/Changi-train.32b3aeb5.jpg",
     "static/media/ChinaTown-Singapore.97cb7689.jpg": "/static/media/ChinaTown-Singapore.97cb7689.jpg",
     "static/media/ChuckNorris1.3dba9b83.png": "/static/media/ChuckNorris1.3dba9b83.png",
+    "static/media/DrumMachine1.8de60276.png": "/static/media/DrumMachine1.8de60276.png",
+    "static/media/JSCalculator1.4aadebb4.png": "/static/media/JSCalculator1.4aadebb4.png",
     "static/media/KeyHolder1.3ebd1a05.png": "/static/media/KeyHolder1.3ebd1a05.png",
     "static/media/Multipurpose.fd0a77ed.png": "/static/media/Multipurpose.fd0a77ed.png",
+    "static/media/PomodoroTimer1.60f7199b.png": "/static/media/PomodoroTimer1.60f7199b.png",
+    "static/media/QuoteGenerator1.546bff1c.png": "/static/media/QuoteGenerator1.546bff1c.png",
     "static/media/ReactList1.0c9c76fe.png": "/static/media/ReactList1.0c9c76fe.png",
     "static/media/ReactWeather1.db7cbd24.png": "/static/media/ReactWeather1.db7cbd24.png",
     "static/media/Resume.2569b224.pdf": "/static/media/Resume.2569b224.pdf",
@@ -25,13 +31,17 @@
     "static/media/Sinners-Paradise.0e0d35d5.jpg": "/static/media/Sinners-Paradise.0e0d35d5.jpg",
     "static/media/TabebuiaTree.bce5eebd.jpg": "/static/media/TabebuiaTree.bce5eebd.jpg",
     "static/media/The-Landmark.0de35974.jpg": "/static/media/The-Landmark.0de35974.jpg",
+    "static/media/TheWebDeveloperColtSteeleCERT.1df405c8.pdf": "/static/media/TheWebDeveloperColtSteeleCERT.1df405c8.pdf",
     "static/media/index.css": "/static/media/cargo.e5ff5f20.svg",
+    "static/media/fCC-FrontendLibraries.91efb3a9.pdf": "/static/media/fCC-FrontendLibraries.91efb3a9.pdf",
+    "static/media/fCC-JSAlgo.37a09469.pdf": "/static/media/fCC-JSAlgo.37a09469.pdf",
+    "static/media/fCC-ResponsiveWebDesign.8be1d59b.pdf": "/static/media/fCC-ResponsiveWebDesign.8be1d59b.pdf",
     "static/media/loopRoadCar.39325d29.jpg": "/static/media/loopRoadCar.39325d29.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7bf80ee8.js",
     "static/js/2.19bd220f.chunk.js",
-    "static/css/main.52412c5b.chunk.css",
-    "static/js/main.de0e681c.chunk.js"
+    "static/css/main.632aafee.chunk.css",
+    "static/js/main.d787ab0a.chunk.js"
   ]
 }
