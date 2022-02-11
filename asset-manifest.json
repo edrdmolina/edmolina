@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.632aafee.chunk.css",
-    "main.js": "/static/js/main.d787ab0a.chunk.js",
-    "main.js.map": "/static/js/main.d787ab0a.chunk.js.map",
+    "main.css": "/static/css/main.83898ffb.chunk.css",
+    "main.js": "/static/js/main.50c5310b.chunk.js",
+    "main.js.map": "/static/js/main.50c5310b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7bf80ee8.js",
     "runtime-main.js.map": "/static/js/runtime-main.7bf80ee8.js.map",
     "static/js/2.19bd220f.chunk.js": "/static/js/2.19bd220f.chunk.js",
@@ -10,9 +10,10 @@
     "static/js/3.82fee29c.chunk.js": "/static/js/3.82fee29c.chunk.js",
     "static/js/3.82fee29c.chunk.js.map": "/static/js/3.82fee29c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.632aafee.chunk.css.map": "/static/css/main.632aafee.chunk.css.map",
+    "static/css/main.83898ffb.chunk.css.map": "/static/css/main.83898ffb.chunk.css.map",
     "static/js/2.19bd220f.chunk.js.LICENSE.txt": "/static/js/2.19bd220f.chunk.js.LICENSE.txt",
     "static/media/BOOTSTRAP4COLT-STEELECERT.5c3a98d0.pdf": "/static/media/BOOTSTRAP4COLT-STEELECERT.5c3a98d0.pdf",
+    "static/media/BackendDevAndAPI.e5e4a52f.png": "/static/media/BackendDevAndAPI.e5e4a52f.png",
     "static/media/BendingArc.a7af173e.jpg": "/static/media/BendingArc.a7af173e.jpg",
     "static/media/CS50xCertificate.10be1816.pdf": "/static/media/CS50xCertificate.10be1816.pdf",
     "static/media/Changi-train.32b3aeb5.jpg": "/static/media/Changi-train.32b3aeb5.jpg",
@@ -41,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.7bf80ee8.js",
     "static/js/2.19bd220f.chunk.js",
-    "static/css/main.632aafee.chunk.css",
-    "static/js/main.d787ab0a.chunk.js"
+    "static/css/main.83898ffb.chunk.css",
+    "static/js/main.50c5310b.chunk.js"
   ]
 }
