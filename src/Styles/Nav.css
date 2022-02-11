@@ -15,7 +15,7 @@
 
 .name-container {
     border-bottom: 1px solid rgba(228, 228, 228, 0.652);
-    font-family: 'SchoolBell', cursive;
+    font-family: Oswald, sans-serif;
     height: 30%;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@
 
 .subtitle-container {
     border-bottom: 1px solid rgba(228, 228, 228, 0.652);
-    font-family: 'Schoolbell', cursive;
+    font-family: Oswald, sans-serif;
     height: 20%;
     display: flex;
     justify-content: center;

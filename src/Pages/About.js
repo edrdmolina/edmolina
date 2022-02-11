@@ -6,6 +6,7 @@ import BootStrap4 from '../Images/BOOTSTRAP4COLT-STEELECERT.pdf';
 import ResponsiveWebDesign from '../Images/fCC-ResponsiveWebDesign.pdf';
 import JSAlgo from '../Images/fCC-JSAlgo.pdf';
 import FrontEndLibraries from '../Images/fCC-FrontendLibraries.pdf';
+import BackendDevAndAPI from '../Images/BackendDevAndAPI.png'
 import '../Styles/About.css'
 
 export class About extends Component {
@@ -16,6 +17,7 @@ export class About extends Component {
     openResponsiveWebDesign = () => window.open(ResponsiveWebDesign);
     openJSAlgo = () => window.open(JSAlgo);
     openFrontEndLibraries = () => window.open(FrontEndLibraries);
+    openBackendDevAndApi = () => window.open(BackendDevAndAPI);
 
     render() {
         return (
@@ -51,6 +53,9 @@ export class About extends Component {
                                 </li>
                                 <li onClick={this.openFrontEndLibraries}>
                                     Front End Development Libraries by freeCodeCamp
+                                </li>
+                                <li onClick={this.openBackendDevAndApi}>
+                                    Back End Development and APIs by freeCodeCamp
                                 </li>
                             </ul>
                         </div>
