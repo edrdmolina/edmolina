@@ -25,6 +25,20 @@
   body {
     margin: 0;
   }
+
+  body::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: #0D0D0D;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #E4E5E3;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    /* border: 1px solid red;  creates padding around scroll thumb */
+  }
   
   /**
    * Render the `main` element consistently in IE.
