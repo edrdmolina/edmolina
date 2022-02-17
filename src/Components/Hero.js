@@ -3,7 +3,7 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 
 // Images
-import HeroImage from '../Images/HeroBackground.jpeg'
+import HeroImage from '../Documents/HeroBackground.jpeg'
 
 // Styles
 const useStyles = createUseStyles({

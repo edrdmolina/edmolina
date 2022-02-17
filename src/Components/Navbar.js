@@ -3,7 +3,7 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 
 // Icon
-import Icon from '../Images/Logo2.png';
+import Icon from '../Documents/Logo2.png';
 
 // Styles
 const useStyles = createUseStyles({
@@ -22,9 +22,6 @@ const useStyles = createUseStyles({
     height: '2.75rem',
     width: '2.75rem',
     margin: '0 25px',
-    '&:hover': {
-      cursor: 'pointer',
-    }
   },
   Nav: {
     width: '300px',
@@ -55,7 +52,7 @@ function Navbar() {
     <nav id='Navbar' className={classes.Navbar}>
       <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon}/>
       <div id='Nav' className={classes.Nav}>
-        <a href='Navbar'>Home</a>
+        <a href='#Hero'>Home</a>
         <a href='Navbar'>About</a>
         <a href='Navbar'>Projects</a>
         <a href='Navbar'>Contact</a>

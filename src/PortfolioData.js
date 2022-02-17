@@ -1,13 +1,22 @@
 // Project images
-import ChuckNorris1 from './Images/ChuckNorris1.png';
-import KeyHolder1 from './Images/KeyHolder1.png';
-import ReactList1 from './Images/ReactList1.png';
-import ReactWeather1 from './Images/ReactWeather1.png';
-import Multipurpose from './Images/Multipurpose.png';
-import PomodoroTimer from './Images/PomodoroTimer1.png';
-import JSCalculator from './Images/JSCalculator1.png';
-import QuoteGenerator from './Images/QuoteGenerator1.png';
-import DrumMachine from './Images/DrumMachine1.png';
+import ChuckNorris1 from './Images/Project-Images/ChuckNorris1.png';
+import KeyHolder1 from './Images/Project-Images/KeyHolder1.png';
+import ReactList1 from './Images/Project-Images/ReactList1.png';
+import ReactWeather1 from './Images/Project-Images/ReactWeather1.png';
+import Multipurpose from './Images/Project-Images/Multipurpose.png';
+import PomodoroTimer from './Images/Project-Images/PomodoroTimer1.png';
+import JSCalculator from './Images/Project-Images/JSCalculator1.png';
+import QuoteGenerator from './Images/Project-Images/QuoteGenerator1.png';
+import DrumMachine from './Images/Project-Images/DrumMachine1.png';
+
+// Certificates
+import CS50xCert from './Images/Certificates/CS50xCertificate.pdf';
+import WebDevCert from './Images/Certificates/TheWebDeveloperColtSteeleCERT.pdf';
+import BootstrapCert from './Images/Certificates/BOOTSTRAP4COLT-STEELECERT.pdf';
+import FCCFrontend from 'src/Images/Certificates/fCC-FrontendLibraries.pdf';
+import FCCResponsiveCert from './Images/Certificates/fCC-ResponsiveWebDesign.pdf';
+import FCCJSAlgoCert from './Images/Certificates/fCC-JSAlgo.pdf';
+import FccBackendCert from './Images/Certificates/fCC-BackendDevAndAPI.pdf';
 
 // Film photos
 import ChangiTrain from './Images/Photos/Changi-train.jpg';
@@ -90,6 +99,56 @@ const PortfolioData = {
             appUrl: "https://edrdmolina.github.io/Drum-Machine/",
             githubUrl: "https://github.com/edrdmolina/Drum-Machine",
             image: DrumMachine
+        },
+    ],
+    certifications: [
+        {
+            name: 'CS50x',
+            certificate: CS50xCert,
+            instructor: 'David J. Malan',
+            date: 'March 2021'
+        },
+        {
+            name: 'The Web Developer Bootcamp 2021',
+            certificate: WebDevCert,
+            instructor: 'Colt Steele',
+            date: 'May 2021'
+        },
+        {
+            name: 'The Bootstrap 4 Bootcamp',
+            certificate: BootstrapCert,
+            instructor: 'Colt Steele',
+            date: 'May 2021'
+        },
+        {
+            name: 'Responsive Web Design',
+            certificate: FCCResponsiveCert,
+            instructor: 'Quincy Larson',
+            date: 'January 2022'
+        },
+        {
+            name: 'JavaScript Algorithms and Data Structures',
+            certificate: FCCJSAlgoCert,
+            instructor: 'Quincy Larson',
+            date: 'January 2022'
+        },
+        {
+            name: 'JavaScript Algorithms and Data Structures',
+            certificate: FCCJSAlgoCert,
+            instructor: 'Quincy Larson',
+            date: 'January 2022'
+        },
+        {
+            name: 'Front End Development Libraries',
+            certificate: FCCFrontend,
+            instructor: 'Quincy Larson',
+            date: 'February 2022'
+        },
+        {
+            name: 'Back End Development and APIs',
+            certificate: FccBackendCert,
+            instructor: 'Quincy Larson',
+            date: 'February 2022'
         },
     ],
     filmPhotos: [
