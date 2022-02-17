@@ -8,7 +8,7 @@ import Icon from '../Documents/Logo2.png';
 // Styles
 const useStyles = createUseStyles({
   Navbar: {
-    maxWidth: '1440px',
+    maxWidth: '2000px',
     width: '100%',
     height: '50px',
     display: 'flex',
@@ -24,7 +24,7 @@ const useStyles = createUseStyles({
     margin: '0 25px',
   },
   Nav: {
-    width: '300px',
+    width: '500px',
     height: '100%',
     display: 'flex',
     flexDirection: 'row',
@@ -53,7 +53,7 @@ function Navbar() {
       <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon}/>
       <div id='Nav' className={classes.Nav}>
         <a href='#Hero'>Home</a>
-        <a href='Navbar'>About</a>
+        <a href='#About'>About</a>
         <a href='Navbar'>Projects</a>
         <a href='Navbar'>Contact</a>
       </div>

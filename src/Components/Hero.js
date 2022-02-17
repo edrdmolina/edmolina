@@ -27,7 +27,7 @@ const useStyles = createUseStyles({
     heroContent: {
         height: '60%',
         width: '100%',
-        maxWidth: '1440px',
+        maxWidth: '2000px',
         margin: 'auto',
         display: 'flex',
         flexDirection: 'column',
@@ -38,7 +38,6 @@ const useStyles = createUseStyles({
         top: '30%',
     },
     header1: {
-        letterSpacing: '2px',
         width: '66%',
         textAlign: 'start'
     },
