@@ -78,8 +78,9 @@ function About() {
                     </p>
                     <p>
                         Since beginning my journey as a Full Stack Web Developer, 
-                        I have focused on learning popular technologies by building 
-                        web applications that I find of assistance in my life.
+                        I have focused on learning popular technologies by completing 
+                        online courses and most importantly, building web applications 
+                        that I find of assistance in my life.
                     </p>
                 </div>
                 <div className={classes.ImageContainer}>
