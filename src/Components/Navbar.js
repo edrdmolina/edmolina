@@ -54,6 +54,7 @@ function Navbar() {
       <div id='Nav' className={classes.Nav}>
         <a href='#Hero'>Home</a>
         <a href='#About'>About</a>
+        <a href='#Skills'>Skills</a>
         <a href='Navbar'>Projects</a>
         <a href='Navbar'>Contact</a>
       </div>
