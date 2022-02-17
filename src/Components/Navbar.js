@@ -1,5 +1,5 @@
 // Components
-import React from 'react'
+import React from 'react';
 import { createUseStyles } from 'react-jss';
 
 // Icon
@@ -8,7 +8,6 @@ import Icon from '../Images/Logo2.png';
 // Styles
 const useStyles = createUseStyles({
   Navbar: {
-    backgroundColor: '#0000005F',
     maxWidth: '1440px',
     width: '100%',
     height: '50px',
@@ -16,18 +15,19 @@ const useStyles = createUseStyles({
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginTop: '25px',
-    position: 'sticky'
+    position: 'fixed',
+    zIndex: '10'
   },
   Icon: {
-    height: '50px',
-    width: '50px',
+    height: '2.75rem',
+    width: '2.75rem',
     margin: '0 25px',
     '&:hover': {
-      cursor: 'pointer'
+      cursor: 'pointer',
     }
   },
   Nav: {
-    width: '250px',
+    width: '300px',
     height: '100%',
     display: 'flex',
     flexDirection: 'row',
@@ -41,7 +41,8 @@ const useStyles = createUseStyles({
     },
 
     '& a:hover': {
-      cursor: 'pointer'
+      cursor: 'pointer',
+      textDecoration: 'underline'
     }
   },
 })

@@ -11,6 +11,8 @@
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
+    font-size: 18px;
+    font-family: 'Ubuntu-Regular';
   }
   
   /* Sections
@@ -38,8 +40,13 @@
    */
   
   h1 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 0.67em 0;
+    font-family: 'PassionOne-Regular';
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'PassionOne-Regular';
   }
   
   /* Grouping content
