@@ -21,7 +21,7 @@ const useStyles = createUseStyles({
         height: '100%',
         width: '100%',
         position: 'absolute',
-        backgroundColor: '#00000059',
+        backgroundColor: '#0000004B',
         zIndex: '-1',
     },
     heroContent: {
