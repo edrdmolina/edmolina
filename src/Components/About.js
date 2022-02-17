@@ -17,7 +17,6 @@ const useStyles = createUseStyles({
         justifyContent: 'center'
     },
     AboutContent: {
-        // backgroundColor: '#BBBCBA59',
         width: '100%',
         maxWidth: '2000px',
         height: '100%',
@@ -35,9 +34,8 @@ const useStyles = createUseStyles({
     },
     ImageContainer: {
         borderRadius: '50%',
-        height: '250px',
+        height: '400px',
         animation: '$rotatingRing 1s linear infinite'
-        // boxShadow: '-5px 0px 10px 3px black'
     },
     Portrait: {
         borderRadius: '50%',
@@ -46,19 +44,19 @@ const useStyles = createUseStyles({
     },
     '@keyframes rotatingRing': {
         from: {
-            boxShadow: '0 5px 20px 10px #402A014F'
+            boxShadow: '0 5px 25px 15px #402A014F'
         },
         '25%': {
-            boxShadow: '-5px 0px 20px 10px #402A014F'
+            boxShadow: '-5px 0px 25px 15px #402A014F'
         },
         '50%': {
-            boxShadow: '0 -5px 20px 10px #402A014F'
+            boxShadow: '0 -5px 25px 15px #402A014F'
         },
         '75%': {
-            boxShadow: '5px 0px 20px 10px #402A014F'
+            boxShadow: '5px 0px 25px 15px #402A014F'
         },
         to: {
-            boxShadow: '0 5px 20px 10px #402A014F'
+            boxShadow: '0 5px 25px 15px #402A014F'
         },
     }
 })
