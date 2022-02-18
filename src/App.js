@@ -3,7 +3,7 @@ import React from 'react'
 import { createUseStyles } from 'react-jss';
 
 // Components
-import Navbar from "./Components/Navbar";
+import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero";
 import About from './Components/About';
 import Skills from './Components/Skills';
