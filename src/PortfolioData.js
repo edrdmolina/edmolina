@@ -17,6 +17,10 @@ import FCCFrontend from 'src/Images/Certificates/fCC-FrontendLibraries.pdf';
 import FCCResponsiveCert from './Images/Certificates/fCC-ResponsiveWebDesign.pdf';
 import FCCJSAlgoCert from './Images/Certificates/fCC-JSAlgo.pdf';
 import FccBackendCert from './Images/Certificates/fCC-BackendDevAndAPI.pdf';
+// Logos from courses
+import HarvardLogo from './Documents/Certificates/Harvard-Logo.png';
+import UdemyLogo from './Documents/Certificates/Udemy-Logo.png';
+import fCCLogo from './Documents/Certificates/fCC-Logo.svg';
 
 // Film photos
 import ChangiTrain from './Images/Photos/Changi-train.jpg';
@@ -106,49 +110,57 @@ const PortfolioData = {
             name: 'CS50x',
             certificate: CS50xCert,
             instructor: 'David J. Malan',
-            date: 'March 2021'
+            date: 'March 2021',
+            logo: HarvardLogo
         },
         {
             name: 'The Web Developer Bootcamp 2021',
             certificate: WebDevCert,
             instructor: 'Colt Steele',
-            date: 'May 2021'
+            date: 'May 2021',
+            logo: UdemyLogo
         },
         {
             name: 'The Bootstrap 4 Bootcamp',
             certificate: BootstrapCert,
             instructor: 'Colt Steele',
-            date: 'May 2021'
+            date: 'May 2021',
+            logo: UdemyLogo
         },
         {
             name: 'Responsive Web Design',
             certificate: FCCResponsiveCert,
             instructor: 'Quincy Larson',
-            date: 'January 2022'
+            date: 'January 2022',
+            logo: fCCLogo
         },
         {
             name: 'JavaScript Algorithms and Data Structures',
             certificate: FCCJSAlgoCert,
             instructor: 'Quincy Larson',
-            date: 'January 2022'
+            date: 'January 2022',
+            logo: fCCLogo
         },
         {
             name: 'JavaScript Algorithms and Data Structures',
             certificate: FCCJSAlgoCert,
             instructor: 'Quincy Larson',
-            date: 'January 2022'
+            date: 'January 2022',
+            logo: fCCLogo
         },
         {
             name: 'Front End Development Libraries',
             certificate: FCCFrontend,
             instructor: 'Quincy Larson',
-            date: 'February 2022'
+            date: 'February 2022',
+            logo: fCCLogo
         },
         {
             name: 'Back End Development and APIs',
             certificate: FccBackendCert,
             instructor: 'Quincy Larson',
-            date: 'February 2022'
+            date: 'February 2022',
+            logo: fCCLogo
         },
     ],
     filmPhotos: [

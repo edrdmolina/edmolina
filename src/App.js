@@ -6,6 +6,7 @@ import { createUseStyles } from 'react-jss';
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import About from './Components/About';
+import Skills from './Components/Skills';
 
 // Styles
 const useStyles = createUseStyles({
@@ -24,6 +25,7 @@ function App() {
       < Navbar />
       < Hero />
       < About />
+      < Skills />
     </div>
   );
 }

@@ -14,7 +14,8 @@ const useStyles = createUseStyles({
         color: 'white',
         display:'flex',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        padding: '50px 0 200px',
     },
     AboutContent: {
         width: '100%',
