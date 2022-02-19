@@ -1,6 +1,7 @@
 // Libraries
 import React from 'react';
 import { createUseStyles } from 'react-jss';
+// import Slider from "react-slick";
 
 // Styles
 const useStyles = createUseStyles({
@@ -23,15 +24,12 @@ const useStyles = createUseStyles({
         flexDirection: 'column',
         color: '#61788C',
         boxShadow: '0 0 5px 5px ##0D0D0DC9',
-
-        '& h2': {
-            textAlign: 'center'
-        }
+        alignItems: 'center',
     },
     certificateContainer: {
-        display: 'flex',
-        flexDirection: 'row',
-
+        width: '99%',
+        height: '80%',
+        backgroundColor: 'blue'
     }
 
 })
@@ -39,13 +37,23 @@ const useStyles = createUseStyles({
 function Skills() {
     const classes = useStyles();
 
+    // const sliderSettings = {
+    //     dots: true,
+    //     infinite: false,
+    //     speed: 500,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    // }
+
     return (
         <section id='Skills' className={classes.skills}>
             <div className={classes.skillsContainer}>
                 <h2>Skills And Certificates</h2>
-                <div className={classes.certificateContainer}>
+                {/* <div className={classes.certificateContainer}>
 
-                </div>
+                </div> */}
+
+                
             </div>
         </section>
     )

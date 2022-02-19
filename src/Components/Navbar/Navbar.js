@@ -61,20 +61,21 @@ const useStyles = createUseStyles({
       backgroundColor: '#0D0D0DCF',
       margin: '0',
       borderRadius: '10px 0 0 10px',
+      padding: '1rem 0',
       '& a': {
-        margin: '0.25rem 1rem',
+        margin: '0.5rem 1rem',
       },
     },
     active: {
       transform: 'translateX(0px)',
-      transition: 'transform 1s ease-in',
+      transition: 'transform 0.75s ease-in',
       '& a': {
         opacity: '1'
       }
     },
     inActive: {
       transform: 'translateX(150px)',
-      transition: 'transform 1s ease-in',
+      transition: 'transform 0.75s ease-in',
     },
   },
   active: {},

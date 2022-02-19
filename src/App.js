@@ -6,7 +6,7 @@ import { createUseStyles } from 'react-jss';
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero";
 import About from './Components/About';
-import Skills from './Components/Skills';
+import Skills from './Components/Skills/Skills';
 
 // Styles
 const useStyles = createUseStyles({

@@ -25,11 +25,11 @@ const useStyles = createUseStyles({
         },
 
         transform: 'rotate(0deg)',
-        transition: 'transform 0.5s linear',
+        transition: 'transform 0.75s linear',
     },
     turnQuarter: {
         transform: 'rotate(90deg)',
-        transition: 'transform 0.5s linear',
+        transition: 'transform 0.75s linear',
     },
     '@media (max-width: 768px)': {
         HamburgerBtn: {
