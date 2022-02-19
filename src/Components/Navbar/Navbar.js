@@ -45,66 +45,40 @@ const useStyles = createUseStyles({
       textDecoration: 'underline'
     }
   },
+  // SMALL SCREENS
   '@media (max-width: 768px)': {
     Navbar: {
-      flexDirection: 'column'
+      flexDirection: 'column',
+      alignItems: 'flex-end',
     },
     Icon: {
       marginRight: 'auto'
     },
     Nav: {
       flexDirection: 'column',
-      width: '100%',
+      width: '20%',
       alignItems: 'flex-end',
-
+      backgroundColor: '#0D0D0DCF',
+      margin: '0',
+      borderRadius: '10px 0 0 10px',
       '& a': {
         margin: '0.25rem 1rem',
-        opacity: '0'
       },
-      '& :nth-child(1n)': {
-        animation: '$fallDown 1s ease-in 1s forwards'
-      },
-      '& :nth-child(2n)': {
-        animation: '$fallDown 1s ease-in 0.75s forwards'
-      },
-      '& :nth-child(3n)': {
-        animation: '$fallDown 1s ease-in 0.5s forwards'
-      },
-      '& :nth-child(4n)': {
-        animation: '$fallDown 1s ease-in 0.25s forwards'
-      },
-      '& :nth-child(5n)': {
-        animation: '$fallDown 1s ease-in 0s forwards'
+    },
+    active: {
+      transform: 'translateX(0px)',
+      transition: 'transform 1s ease-in',
+      '& a': {
+        opacity: '1'
       }
     },
-    inactive: {
-      display: 'none',
+    inActive: {
+      transform: 'translateX(150px)',
+      transition: 'transform 1s ease-in',
     },
-    '@keyframes fallDown': {
-      from: {
-        transform: 'translateY(-115px)',
-        opacity: '0'
-      },
-      '75%': {
-        transform: 'translateY(0px)',
-        opacity: '1'
-      },
-      '85%': {
-        transform: 'translateY(-25px)',
-        opacity: '1'
-      },
-      to: {
-        transform: 'translateY(0px)',
-        opacity: '1'
-      }
-    }
   },
-  inactive: {
-    
-  },
-  
-
-
+  active: {},
+  inActive: {},
 })
 
 // 768 break point
@@ -120,13 +94,13 @@ function Navbar() {
   return (
     <nav id='Navbar' className={classes.Navbar}>
       <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon}/>
-      < HamburgerBtn toggleNav={toggleNav} />
-      <div id='Nav' className={`${isActive ? '' : classes.inactive} ${classes.Nav}`}>
+      < HamburgerBtn toggleNav={toggleNav} isActive={isActive} />
+      <div id='Nav' className={`${classes.Nav} ${isActive ? classes.active : classes.inActive}`}>
         <a href='#Hero'>Home</a>
         <a href='#About'>About</a>
         <a href='#Skills'>Skills</a>
-        <a href='Navbar'>Projects</a>
-        <a href='Navbar'>Contact</a>
+        <a href='#Projects'>Projects</a>
+        <a href='#Contact'>Contact</a>
       </div>
     </nav>
   )
