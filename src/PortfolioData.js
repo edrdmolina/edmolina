@@ -1,36 +1,36 @@
 // Project images
-import ChuckNorris1 from './Images/Project-Images/ChuckNorris1.png';
-import KeyHolder1 from './Images/Project-Images/KeyHolder1.png';
-import ReactList1 from './Images/Project-Images/ReactList1.png';
-import ReactWeather1 from './Images/Project-Images/ReactWeather1.png';
-import Multipurpose from './Images/Project-Images/Multipurpose.png';
-import PomodoroTimer from './Images/Project-Images/PomodoroTimer1.png';
-import JSCalculator from './Images/Project-Images/JSCalculator1.png';
-import QuoteGenerator from './Images/Project-Images/QuoteGenerator1.png';
-import DrumMachine from './Images/Project-Images/DrumMachine1.png';
+import ChuckNorris1 from './Documents/Project-Images/ChuckNorris1.png';
+import KeyHolder1 from './Documents/Project-Images/KeyHolder1.png';
+import ReactList1 from './Documents/Project-Images/ReactList1.png';
+import ReactWeather1 from './Documents/Project-Images/ReactWeather1.png';
+import Multipurpose from './Documents/Project-Images/Multipurpose.png';
+import PomodoroTimer from './Documents/Project-Images/PomodoroTimer1.png';
+import JSCalculator from './Documents/Project-Images/JSCalculator1.png';
+import QuoteGenerator from './Documents/Project-Images/QuoteGenerator1.png';
+import DrumMachine from './Documents/Project-Images/DrumMachine1.png';
 
 // Certificates
-import CS50xCert from './Images/Certificates/CS50xCertificate.pdf';
-import WebDevCert from './Images/Certificates/TheWebDeveloperColtSteeleCERT.pdf';
-import BootstrapCert from './Images/Certificates/BOOTSTRAP4COLT-STEELECERT.pdf';
-import FCCFrontend from 'src/Images/Certificates/fCC-FrontendLibraries.pdf';
-import FCCResponsiveCert from './Images/Certificates/fCC-ResponsiveWebDesign.pdf';
-import FCCJSAlgoCert from './Images/Certificates/fCC-JSAlgo.pdf';
-import FccBackendCert from './Images/Certificates/fCC-BackendDevAndAPI.pdf';
+import CS50xCert from './Documents/Certificates/CS50xCertificate.pdf';
+import WebDevCert from './Documents/Certificates/TheWebDeveloperColtSteeleCERT.pdf';
+import BootstrapCert from './Documents/Certificates/BOOTSTRAP4COLT-STEELECERT.pdf';
+import FCCFrontend from './Documents/Certificates/fCC-FrontendLibraries.pdf';
+import FCCResponsiveCert from './Documents/Certificates/fCC-ResponsiveWebDesign.pdf';
+import FCCJSAlgoCert from './Documents/Certificates/fCC-JSAlgo.pdf';
+import FccBackendCert from './Documents/Certificates/fCC-BackendDevAndAPI.pdf';
 // Logos from courses
 import HarvardLogo from './Documents/Certificates/Harvard-Logo.png';
 import UdemyLogo from './Documents/Certificates/Udemy-Logo.png';
 import fCCLogo from './Documents/Certificates/fCC-Logo.svg';
 
 // Film photos
-import ChangiTrain from './Images/Photos/Changi-train.jpg';
-import ChinaTownSingapore from './Images/Photos/ChinaTown-Singapore.jpg';
-import SingaporeFlyer from './Images/Photos/Singapore-Flyer.jpg';
-import TabebuiaTree from './Images/Photos/TabebuiaTree.jpg';
-import BendingArc from './Images/Photos/BendingArc.jpg';
-import TheLandmark from './Images/Photos/The-Landmark.jpg';
-import SinnersParadise from './Images/Photos/Sinners-Paradise.jpg';
-import LoopRoadCar from './Images/Photos/loopRoadCar.jpg';
+import ChangiTrain from './Documents/Photos/Changi-train.jpg';
+import ChinaTownSingapore from './Documents/Photos/ChinaTown-Singapore.jpg';
+import SingaporeFlyer from './Documents/Photos/Singapore-Flyer.jpg';
+import TabebuiaTree from './Documents/Photos/TabebuiaTree.jpg';
+import BendingArc from './Documents/Photos/BendingArc.jpg';
+import TheLandmark from './Documents/Photos/The-Landmark.jpg';
+import SinnersParadise from './Documents/Photos/Sinners-Paradise.jpg';
+import LoopRoadCar from './Documents/Photos/loopRoadCar.jpg';
 
 const PortfolioData = {
     contact: {
@@ -105,62 +105,83 @@ const PortfolioData = {
             image: DrumMachine
         },
     ],
-    certifications: [
+    certificates: [
         {
             name: 'CS50x',
             certificate: CS50xCert,
             instructor: 'David J. Malan',
             date: 'March 2021',
-            logo: HarvardLogo
+            logo: HarvardLogo,
+            skills: [
+                'Abstraction', 'Algorithms', 'Data Structures', 'Encapsulation',
+                'Resource Management', 'Security', 'Software Engineering', 'Web Programming',
+            ]
         },
         {
             name: 'The Web Developer Bootcamp 2021',
             certificate: WebDevCert,
             instructor: 'Colt Steele',
             date: 'May 2021',
-            logo: UdemyLogo
+            logo: UdemyLogo,
+            skills: [
+                'HTML5', 'CSS3', 'JavaScript ES6, ES2018', 'Unix CLI',
+                'NodeJS, NPM', 'ExpressJS, REST API', 'MongoDB, Schema Design' 
+            ]
         },
         {
             name: 'The Bootstrap 4 Bootcamp',
             certificate: BootstrapCert,
             instructor: 'Colt Steele',
             date: 'May 2021',
-            logo: UdemyLogo
+            logo: UdemyLogo,
+            skills: [
+                'Responsive Web Design', 'Bootstrap Components', 'Bootstrap 4 Grid System', 
+                'SASS', 'Flexbox'
+            ]
         },
         {
             name: 'Responsive Web Design',
             certificate: FCCResponsiveCert,
             instructor: 'Quincy Larson',
             date: 'January 2022',
-            logo: fCCLogo
+            logo: fCCLogo,
+            skills: [
+                'Basic HTML and HTML5', 'Basic CSS', 'Applied Visual Design',
+                'Applied Accessibility', 'Responsive Web Design Principles', 
+                'CSS Flexbox', 'CSS Grid'
+            ]
         },
         {
             name: 'JavaScript Algorithms and Data Structures',
             certificate: FCCJSAlgoCert,
             instructor: 'Quincy Larson',
             date: 'January 2022',
-            logo: fCCLogo
-        },
-        {
-            name: 'JavaScript Algorithms and Data Structures',
-            certificate: FCCJSAlgoCert,
-            instructor: 'Quincy Larson',
-            date: 'January 2022',
-            logo: fCCLogo
+            logo: fCCLogo,
+            skills: [
+                'Basic JavaScript', 'ES6', 'Regular Expressions', 'Debugging', 
+                'Basic Data Structures', 'Object Oriented Programming',
+                'Functional Programming', 'Intermediate Algorithm Scripting'
+            ]
         },
         {
             name: 'Front End Development Libraries',
             certificate: FCCFrontend,
             instructor: 'Quincy Larson',
             date: 'February 2022',
-            logo: fCCLogo
+            logo: fCCLogo,
+            skills: [
+                'Bootstrap', 'jQuery', 'SASS', 'React', 'Redux'
+            ]
         },
         {
             name: 'Back End Development and APIs',
             certificate: FccBackendCert,
             instructor: 'Quincy Larson',
             date: 'February 2022',
-            logo: fCCLogo
+            logo: fCCLogo,
+            skills: [
+                'Managing Packages with NPM', 'Basic Node and Express', 'MongoDB and Mongoose', 
+            ]
         },
     ],
     filmPhotos: [

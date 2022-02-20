@@ -11,7 +11,7 @@ const useStyles = createUseStyles({
         backgroundColor: '#61788C',
         width: '100%',
         minHeight: '600px',
-        color: 'white',
+        color: '#E4E5E3',
         display:'flex',
         alignItems: 'center',
         justifyContent: 'center',
