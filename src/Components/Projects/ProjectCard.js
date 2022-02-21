@@ -61,7 +61,10 @@ const useStyles = createUseStyles({
         '& a': {
             color: 'white'
         },
-        '& a:hover, a:active': {
+        '& a:hover': {
+            color: '#CCC'
+        },
+        '& a:active': {
             transform: 'translate(1px, 1px)'
         }
     },
@@ -155,10 +158,10 @@ function ProjectCard(props) {
                 </ul>
                 <div className={classes.links}>
                     <a href={data.githubUrl} target="_blank" rel='noopener noreferrer'>
-                        <i className="fab fa-github"></i>
+                        <i className="fab fa-github fa-2x" />
                     </a>
                     <a href={data.appUrl} target="_blank" rel='noopener noreferrer'>
-                        <i className="fas fa-external-link-alt"></i>
+                        <i className="fas fa-external-link-alt fa-2x" />
                     </a>
                 </div>
             </div>
