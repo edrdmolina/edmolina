@@ -12,14 +12,13 @@ const useStyles = createUseStyles({
 
         '& img': {
             width: '65%',
-            borderRadius: '10px'
+            borderRadius: '10px',
+            boxShadow: '0 0 5px 5px rgba(0,0,0,0.25)'
         },
-
-
     },
     projectContent: {
         height: '90%',
-        width: '35%',
+        width: '30rem',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-end',
@@ -31,14 +30,13 @@ const useStyles = createUseStyles({
             display: 'flex',
             flexDirection: 'row',
             flexWrap: 'wrap',
-            width: '90%',
+            width: '100%',
             justifyContent: 'flex-end',
 
             '& li': {
                 margin: '0.25rem 0.25rem'
             }
         }
-
     },
     title: {
         textAlign: 'end',
@@ -46,12 +44,11 @@ const useStyles = createUseStyles({
         '& h3, p': {
             margin: '0',
         },
-
     },
     description: {
         backgroundColor: '#0D0D0DC0',
         padding: '1rem',
-        width: '120%',
+        width: '125%',
         minHeight: '5rem',
         borderRadius: '10px'
     },
@@ -66,6 +63,69 @@ const useStyles = createUseStyles({
         },
         '& a:hover, a:active': {
             transform: 'translate(1px, 1px)'
+        }
+    },
+    //! SMALL SCREENS
+    '@media (max-width: 768px)': {
+        projectCard: {
+            display: 'inline-block',
+            position: 'relative',
+            // overflow: 'hidden',
+
+            '& img': {
+                display: 'block',
+                height: '100%',
+                width: '100%',
+                objectFit: 'cover',
+                zIndex: '5',
+                position: 'absolute',
+                top: '0',
+                left: '0',
+            }
+        },
+
+        projectContent: {
+            position: 'relative',
+            top: '0',
+            left: '0',
+            width: '100%',
+            zIndex: '10',
+            backgroundColor: '#0D0D0DC0',
+            alignItems: 'flex-start',
+            borderRadius: '10px',
+
+            '& ul': {
+                listStyle: 'none',
+                display: 'flex',
+                flexDirection: 'row',
+                flexWrap: 'wrap',
+                width: '95%',
+                justifyContent: 'flex-start',
+                paddingLeft: '1rem',
+    
+                '& li': {
+                    margin: '0.25rem 0.25rem'
+                }
+            }
+        },
+
+        title: {
+            textAlign: 'start',
+            padding: '2rem 0 0 1rem'
+        },
+
+        description: {
+            paddingLeft: '1rem',
+            width: '95%',
+            minHeight: '5rem',
+            borderRadius: '10px',
+            backgroundColor: 'transparent',
+            margin: '0'
+        },
+
+        links: {
+            width: '95%',
+            padding: '0 0 2rem 1rem'
         }
     }
 })
@@ -95,10 +155,10 @@ function ProjectCard(props) {
                 </ul>
                 <div className={classes.links}>
                     <a href={data.githubUrl} target="_blank" rel='noopener noreferrer'>
-                        <i className="fab fa-github fa-2x"></i>
+                        <i className="fab fa-github"></i>
                     </a>
                     <a href={data.appUrl} target="_blank" rel='noopener noreferrer'>
-                        <i className="fas fa-external-link-alt fa-2x"></i>
+                        <i className="fas fa-external-link-alt"></i>
                     </a>
                 </div>
             </div>

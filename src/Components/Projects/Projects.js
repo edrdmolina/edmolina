@@ -16,7 +16,7 @@ const useStyles = createUseStyles({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        margin: '3rem 0',
+        padding: '3rem 0',
 
         '& h2': {
             margin: '4rem'
@@ -28,8 +28,34 @@ const useStyles = createUseStyles({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        gap: '2rem'
+        gap: '5rem'
 
+    },
+
+    btnContainer: {
+        width: '100%',
+        height: '8%',
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        margin: '5rem 0',
+
+        '& button': {
+            backgroundColor: '#61788C',
+            color: '#E4E5E3',
+            outline: 'none',
+            border: 'none',
+            borderRadius: '5px',
+            padding: '0.5rem 1rem',
+            cursor: 'pointer',
+        },
+        '& button:hover': {
+            backgroundColor: '#71889C',
+
+        },
+        '& button:active': {
+            transform: 'translate(1px,  1px)'
+        }
     },
 
     // 2K Screens
@@ -67,6 +93,9 @@ function Projects() {
             <h2>Projects</h2>    
             <div className={classes.projectsContainer}>
                 {projectCards}
+            </div>
+            <div className={classes.btnContainer}>
+                <button>SEE MORE</button>
             </div>
         </section>
     )

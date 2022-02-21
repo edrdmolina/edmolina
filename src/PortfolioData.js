@@ -42,7 +42,7 @@ const PortfolioData = {
     projects: [
         {
             name: "React List",
-            description: "All of the basics you need in order to create multiple shopping lists.",
+            description: "All of the basics you need in order to create multiple shopping lists. with the ability to cross of items while shopping and editing items in case of a typo or quantity error.",
             technologies: ['MongoDB', 'ExpressJS', 'ReactJS', 'NodeJS', 'Heroku', 'Mongo Atlas', 'Passport'],
             appUrl: "https://listapp-molina.herokuapp.com/",
             githubUrl: "https://github.com/edrdmolina/React-List-App",
@@ -50,7 +50,7 @@ const PortfolioData = {
         },
         {
             name: "React Weather",
-            description: "React Weather app based on the look and feel of the iOS weather app. You can check the weather anywhere around the globe using the Open Weather API. The app supplies you with hourly forecast for 48 hours, Daily forecast for 8 days and current weather information such as temperature, humidity wind speed and direction and even sunrise and sunset times.",
+            description: "React Weather app based on the look and feel of the iOS weather app. You can check the weather anywhere around the globe using the Open Weather API.",
             technologies: ['ExpressJS', 'ReactJS', 'NodeJS', 'Heroku', 'Github Pages', 'Open Weather', 'Map Quest API'],
             appUrl: "https://edrdmolina.github.io/React-Weather/",
             githubUrl: "https://github.com/edrdmolina/React-Weather",
