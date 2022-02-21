@@ -19,7 +19,8 @@ const useStyles = createUseStyles({
     alignItems: 'center',
     position: 'fixed',
     zIndex: '10',
-    transition: 'background-color 0.35s linear'
+    transition: 'background-color 0.35s linear',
+    paddingTop: '0.5rem',
   },
   Icon: {
     height: '2.5rem',
@@ -62,7 +63,7 @@ const useStyles = createUseStyles({
       borderRadius: '10px 0 0 10px',
       padding: '1rem 0',
       '& a': {
-        margin: '0.5rem 1rem',
+        margin: '1rem 1rem',
       },
     },
     active: {
@@ -104,8 +105,9 @@ function Navbar() {
     const navbarHeight = navbar.offsetHeight;
     const windowHeight = window.innerHeight;
     const navbarScrollTop = window.scrollY;
+    const windowWidth = window.innerWidth;
     // const windowWidth = ;
-    if((navbarScrollTop + navbarHeight) > windowHeight) {
+    if((navbarScrollTop + navbarHeight) > windowHeight && windowWidth > 768) {
       toggleIsPastHero(true);
     } else {
       toggleIsPastHero(false)

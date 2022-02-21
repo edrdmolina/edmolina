@@ -11,7 +11,7 @@ const useStyles = createUseStyles({
         flexDirection: 'column',
         justifyContent: 'space-around',
         right: '1rem',
-        top: '0.5rem',
+        top: '1rem',
 
         '&:hover': {
             cursor: 'pointer'
