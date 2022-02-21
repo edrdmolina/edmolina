@@ -79,7 +79,7 @@ function Projects() {
     const projectCards = projects.map((p, i) => {
         if(i >= 4) {
             return (
-                <div style={{ display: 'none' }}/>
+                <div key={i} style={{ display: 'none' }}/>
             )
         } else {
             return (
