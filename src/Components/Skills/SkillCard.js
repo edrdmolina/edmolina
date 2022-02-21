@@ -63,9 +63,11 @@ const useStyles = createUseStyles({
             border: 'none',
             borderRadius: '5px',
             padding: '0.5rem 1rem',
+            cursor: 'pointer',
         },
         '& button:hover': {
-            cursor: 'pointer'
+            backgroundColor: '#71889C',
+
         },
         '& button:active': {
             transform: 'translate(1px,  1px)'
