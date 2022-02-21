@@ -19,6 +19,7 @@ const useStyles = createUseStyles({
     alignItems: 'center',
     position: 'fixed',
     zIndex: '10',
+    transition: 'background-color 0.35s linear'
   },
   Icon: {
     height: '2.5rem',

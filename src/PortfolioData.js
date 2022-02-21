@@ -1,5 +1,4 @@
 // Project images
-import ChuckNorris1 from './Documents/Project-Images/ChuckNorris1.png';
 import KeyHolder1 from './Documents/Project-Images/KeyHolder1.png';
 import ReactList1 from './Documents/Project-Images/ReactList1.png';
 import ReactWeather1 from './Documents/Project-Images/ReactWeather1.png';
@@ -34,7 +33,7 @@ import LoopRoadCar from './Documents/Photos/loopRoadCar.jpg';
 
 const PortfolioData = {
     contact: {
-        name: "eduardo molina",
+        name: "Eduardo Molina",
         email: "edrdmolina11@gmail.com",
         phone: "(786)567-2231",
         github: "https://github.com/edrdmolina",
@@ -68,13 +67,6 @@ const PortfolioData = {
             appUrl: "https://keyholder-molina.herokuapp.com/",
             githubUrl: "https://github.com/edrdmolina/KeyHolder",
             image: KeyHolder1
-        },
-        {
-            name: "Chuck Norris Joke Generator",
-            description:  "Using axios and cheerio, I scraped over 90 Chuck Norris jokes and saved them to a JSON file. From there, I set up a backend API with express that serves a random joke every time it's called. On the client side it's a simple button that gives you a random Chuck Norris Joke. Overall it was a simple afternoon exercise where i learned the basics of web scraping.",
-            appUrl: "https://edrdmolina.github.io/Chuck-Norris-Jokes/",
-            githubUrl: "https://github.com/edrdmolina/Chuck-Norris-Jokes",
-            image: ChuckNorris1
         },
         {
             name: "Pomodoro Timer",

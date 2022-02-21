@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero";
 import About from './Components/About';
 import Skills from './Components/Skills/Skills';
+import Projects from './Components/Projects/Projects';
 
 // Styles
 const useStyles = createUseStyles({
@@ -43,6 +44,7 @@ function App() {
       < Hero />
       < About />
       < Skills />
+      < Projects />
     </div>
   );
 }

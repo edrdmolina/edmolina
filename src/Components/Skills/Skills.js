@@ -12,13 +12,9 @@ import SkillCard from './SkillCard';
 const useStyles = createUseStyles({
     skills: {
         width: '100%',
-        minHeight: '800px',
+        minHeight: '100vh',
         display: 'flex',
         justifyContent: 'center',
-
-        '& h2': {
-            margin: '4rem'
-        }
     },
     skillsContainer: {
         width: '100%',
@@ -31,15 +27,18 @@ const useStyles = createUseStyles({
         boxShadow: '0 0 5px 5px ##0D0D0DC9',
         alignItems: 'center',
         paddingBottom: '2rem',
-        backgroundColor: '#FFFFFF2F'
+        backgroundColor: '#FFFFFF2F',
+
+        '& h2': {
+            margin: '4rem'
+        }
     },
     certificateContainer: {
         width: '95%',
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'space-evenly',
-        flexWrap: 'wrap',
-        gap: '1.5rem'
+        gap: '2rem',
+        alignItems: 'center',
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(22rem, 1fr))',
     },
     // 2K Screens
     '@media (min-width: 2500px)': {

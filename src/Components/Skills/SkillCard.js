@@ -15,6 +15,7 @@ const useStyles = createUseStyles({
         justifyContent: 'space-between',
         backgroundColor: '#0D0D0D57',
         overflow: 'hidden',
+        margin: '0 auto',
 
         '& h3': {
             borderBottom: '1px solid #8C8C8C',
@@ -45,7 +46,7 @@ const useStyles = createUseStyles({
         '& h5': {
             textAlign: 'center',
             margin: '1rem'
-        }
+        },
     },
     buttonRow: {
         width: '100%',
