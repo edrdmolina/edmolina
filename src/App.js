@@ -13,8 +13,8 @@ import Projects from './Components/Projects/Projects';
 const useStyles = createUseStyles({
   App: {
     backgroundImage: 'linear-gradient(90deg, #AEB5BF, #61788C, #8C8C8C)',
-    backgroundSize: '500%',
-    animation: '$bg-animation 10s linear 0s infinite alternate',
+    backgroundSize: '300%',
+    animation: '$bg-animation 5s linear 0s infinite alternate',
   },
   '@keyframes bg-animation': {
     '0%': {
