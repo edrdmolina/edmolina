@@ -8,14 +8,13 @@ import Portrait from '../Documents/Portrait.jpg';
 // Styles
 const useStyles = createUseStyles({
     About: {
-        backgroundColor: '#61788C',
         width: '100%',
         minHeight: '600px',
-        color: '#E4E5E3',
+        color: 'white',
         display:'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: '50px 0 200px',
+        padding: '50px 0',
     },
     AboutContent: {
         width: '100%',
@@ -35,7 +34,7 @@ const useStyles = createUseStyles({
     },
     ImageContainer: {
         borderRadius: '50%',
-        height: '400px',
+        height: '20rem',
         animation: '$rotatingRing 1s linear infinite'
     },
     Portrait: {

@@ -1,5 +1,5 @@
 // Libraries
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { createUseStyles } from 'react-jss';
 
 // Components
@@ -11,16 +11,14 @@ import Icon from '../../Documents/Logo2.png';
 // Styles
 const useStyles = createUseStyles({
   Navbar: {
-    maxWidth: '2000px',
     width: '100%',
-    height: '2rem',
+    height: '3.5rem',
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginTop: '25px',
     position: 'fixed',
-    zIndex: '10'
+    zIndex: '10',
   },
   Icon: {
     height: '2.5rem',
@@ -28,7 +26,7 @@ const useStyles = createUseStyles({
     margin: '0 1rem',
   },
   Nav: {
-    width: '500px',
+    width: '20rem',
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -58,7 +56,7 @@ const useStyles = createUseStyles({
       flexDirection: 'column',
       width: '20%',
       alignItems: 'flex-end',
-      backgroundColor: '#0D0D0DCF',
+      backgroundColor: '#0D0D0D8F',
       margin: '0',
       borderRadius: '10px 0 0 10px',
       padding: '1rem 0',
@@ -87,14 +85,36 @@ const useStyles = createUseStyles({
 function Navbar() {
   const classes = useStyles();
   const [isActive, toggleIsActive] = useState(false);
+  const [isPastHero, toggleIsPastHero] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      changeBackground()
+    })
+
+  })
 
   function toggleNav() {
     toggleIsActive(!isActive)
   }
 
+  function changeBackground() {
+    const navbar = document.querySelector('#Navbar');
+    const navbarHeight = navbar.offsetHeight;
+    const windowHeight = window.innerHeight;
+    const navbarScrollTop = window.scrollY;
+    // const windowWidth = ;
+    if((navbarScrollTop + navbarHeight) > windowHeight) {
+      toggleIsPastHero(true);
+    } else {
+      toggleIsPastHero(false)
+    }
+  }
+
+
   return (
-    <nav id='Navbar' className={classes.Navbar}>
-      <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon}/>
+    <nav id='Navbar' className={classes.Navbar} style={{ backgroundColor: isPastHero ? '#0D0D0D8F' : '' }}>
+      <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon} />
       < HamburgerBtn toggleNav={toggleNav} isActive={isActive} />
       <div id='Nav' className={`${classes.Nav} ${isActive ? classes.active : classes.inActive}`}>
         <a href='#Hero'>Home</a>

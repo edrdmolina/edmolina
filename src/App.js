@@ -14,8 +14,25 @@ const useStyles = createUseStyles({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    justifyContent: 'flex-start'
-  }
+    justifyContent: 'flex-start',
+    backgroundImage: 'linear-gradient(45deg, #AEB5BF, #61788C, #8C8C8C)',
+    backgroundSize: '500%',
+    animation: '$bg-animation 8s linear 0s infinite alternate',
+  },
+  '@keyframes bg-animation': {
+    '0%': {
+        backgroundPosition: 'left',
+    },
+    '33%': {
+      backgroundPosition: 'top',
+    },
+    '66%': {
+      backgroundPosition: 'bottom',
+    },
+    '100%': {
+        backgroundPosition: 'right',
+    }
+}
 })
 
 function App() {

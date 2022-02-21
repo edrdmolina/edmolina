@@ -129,6 +129,18 @@ const PortfolioData = {
             ]
         },
         {
+            name: 'JavaScript Algorithms and Data Structures',
+            certificate: FCCJSAlgoCert,
+            instructor: 'Quincy Larson',
+            date: 'January 2022',
+            logo: fCCLogo,
+            skills: [
+                'Basic JavaScript', 'ES6', 'Regular Expressions', 'Debugging', 
+                'Basic Data Structures', 'Object Oriented Programming',
+                'Functional Programming', 'Intermediate Algorithm Scripting'
+            ]
+        },
+        {
             name: 'The Bootstrap 4 Bootcamp',
             certificate: BootstrapCert,
             instructor: 'Colt Steele',
@@ -149,18 +161,6 @@ const PortfolioData = {
                 'Basic HTML and HTML5', 'Basic CSS', 'Applied Visual Design',
                 'Applied Accessibility', 'Responsive Web Design Principles', 
                 'CSS Flexbox', 'CSS Grid'
-            ]
-        },
-        {
-            name: 'JavaScript Algorithms and Data Structures',
-            certificate: FCCJSAlgoCert,
-            instructor: 'Quincy Larson',
-            date: 'January 2022',
-            logo: fCCLogo,
-            skills: [
-                'Basic JavaScript', 'ES6', 'Regular Expressions', 'Debugging', 
-                'Basic Data Structures', 'Object Oriented Programming',
-                'Functional Programming', 'Intermediate Algorithm Scripting'
             ]
         },
         {

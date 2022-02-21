@@ -15,7 +15,19 @@
     font-family: 'Ubuntu-Regular';
     background-color: #0D0D0D;
   }
+
+  @media (min-width: 2500px) {
+    html {
+      font-size: 23px;
+    }
+  }
   
+  @media (min-width: 3000px) {
+    html {
+      font-size: 30px;
+    }
+  }
+
   /* Sections
      ========================================================================== */
   
@@ -36,9 +48,8 @@
   }
 
   body::-webkit-scrollbar-thumb {
-    background-color: #E4E5E3;    /* color of the scroll thumb */
+    background-color: white;    /* color of the scroll thumb */
     border-radius: 10px;       /* roundness of the scroll thumb */
-    /* border: 1px solid red;  creates padding around scroll thumb */
   }
   
   /**

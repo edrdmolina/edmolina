@@ -14,7 +14,7 @@ const useStyles = createUseStyles({
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center center',
-        zIndex: '-2',
+        zIndex: '1',
         textTransform: 'capitalize',
     },
     shader: {
@@ -22,7 +22,7 @@ const useStyles = createUseStyles({
         width: '100%',
         position: 'absolute',
         backgroundColor: '#0000004B',
-        zIndex: '-1',
+        zIndex: '2',
     },
     heroContent: {
         height: '60%',
@@ -36,6 +36,7 @@ const useStyles = createUseStyles({
         color: 'white',
         position: 'relative',
         top: '30%',
+        zIndex: '3',
     },
     header1: {
         width: '66%',
@@ -64,7 +65,13 @@ const useStyles = createUseStyles({
         to: {
           transform: 'translateY(0px)',
         }
-      }
+    },
+    // 4K Screens
+  '@media (min-width: 3000px)': {
+    heroContent: {
+      maxWidth: '3000px',
+    }
+  }
 })
 
 function Hero() {

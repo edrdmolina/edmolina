@@ -8,12 +8,13 @@ const useStyles = createUseStyles({
         height: '30rem',
         width: '22rem',
         borderRadius: '15px',
-        border: '1px solid #8C8C8C',
         boxShadow: '3px 3px 5px 5px rgba(0,0,0,0.25)',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'space-between',
+        backgroundColor: '#0D0D0D57',
+        overflow: 'hidden',
 
         '& h3': {
             borderBottom: '1px solid #8C8C8C',
@@ -24,7 +25,7 @@ const useStyles = createUseStyles({
             height: '17%',
             display: 'flex',
             alignItems: 'center',
-
+            backgroundColor: '#0D0D0D8F',
         },
     },
     courseRow: {
