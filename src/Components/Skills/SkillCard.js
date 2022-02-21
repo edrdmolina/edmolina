@@ -27,6 +27,7 @@ const useStyles = createUseStyles({
             display: 'flex',
             alignItems: 'center',
             backgroundColor: '#0D0D0D8F',
+            padding: '0.5rem',
         },
     },
     courseRow: {
@@ -35,6 +36,7 @@ const useStyles = createUseStyles({
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-around',
+        marginTop: '0.5rem',
         '& img': {
             height: '5rem',
         }
