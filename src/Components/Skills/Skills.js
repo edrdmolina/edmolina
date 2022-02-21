@@ -15,6 +15,7 @@ const useStyles = createUseStyles({
         minHeight: '100vh',
         display: 'flex',
         justifyContent: 'center',
+        margin: '3rem 0',
     },
     skillsContainer: {
         width: '100%',

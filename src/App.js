@@ -12,23 +12,13 @@ import Projects from './Components/Projects/Projects';
 // Styles
 const useStyles = createUseStyles({
   App: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'flex-start',
-    backgroundImage: 'linear-gradient(45deg, #AEB5BF, #61788C, #8C8C8C)',
+    backgroundImage: 'linear-gradient(90deg, #AEB5BF, #61788C, #8C8C8C)',
     backgroundSize: '500%',
-    animation: '$bg-animation 8s linear 0s infinite alternate',
+    animation: '$bg-animation 10s linear 0s infinite alternate',
   },
   '@keyframes bg-animation': {
     '0%': {
         backgroundPosition: 'left',
-    },
-    '33%': {
-      backgroundPosition: 'top',
-    },
-    '66%': {
-      backgroundPosition: 'bottom',
     },
     '100%': {
         backgroundPosition: 'right',

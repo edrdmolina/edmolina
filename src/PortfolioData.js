@@ -42,7 +42,8 @@ const PortfolioData = {
     projects: [
         {
             name: "React List",
-            description: "A MERN stack app designed to save lists. Requires making an account to save all data onto a Mongo Atlas server. I use it on a weekly basis with my significant other to prepare grocery lists or tasks that need to be completed. Being a full stack app all changes update instantly by calling the backend express server API.",
+            description: "All of the basics you need in order to create multiple shopping lists.",
+            technologies: ['MongoDB', 'ExpressJS', 'ReactJS', 'NodeJS', 'Heroku', 'Mongo Atlas', 'Passport'],
             appUrl: "https://listapp-molina.herokuapp.com/",
             githubUrl: "https://github.com/edrdmolina/React-List-App",
             image: ReactList1
@@ -50,20 +51,23 @@ const PortfolioData = {
         {
             name: "React Weather",
             description: "React Weather app based on the look and feel of the iOS weather app. You can check the weather anywhere around the globe using the Open Weather API. The app supplies you with hourly forecast for 48 hours, Daily forecast for 8 days and current weather information such as temperature, humidity wind speed and direction and even sunrise and sunset times.",
+            technologies: ['ExpressJS', 'ReactJS', 'NodeJS', 'Heroku', 'Github Pages', 'Open Weather', 'Map Quest API'],
             appUrl: "https://edrdmolina.github.io/React-Weather/",
             githubUrl: "https://github.com/edrdmolina/React-Weather",
             image: ReactWeather1
         },
         {
             name: "Multipurpose Express API",
-            description: "The Multipurpose Express API was designed to serve as a flexible back-end server for multiple front-end projects. The API has multiple routes that anyone can use. Below are the instructions to use the API routes for Weather and Chuck Norris jokes.",
+            description: "The Multipurpose Express API was designed to serve as a flexible back-end server for multiple front-end projects. The API has multiple routes that anyone can use.",
+            technologies: ['ExpressJS', 'ReactJS', 'NodeJS', 'Heroku', 'Open Weather', 'Map Quest API', 'Cheerio'],
             appUrl: "https://multi-purpose-api.herokuapp.com/",
             githubUrl: "https://github.com/edrdmolina/Multipurpose-ExpressJS",
             image: Multipurpose
         },
         {
             name: "Key-Holder",
-            description: "A full Stack app using Express JS, Mongo Atlas and EJS Engine. This app is designed to store passwords and even help you create a randomized password. All data stored on the Database is encrypted before being saved.",
+            description: "An app designed to store passwords and keys while helping the user to create a randomized password. All data stored on the Database is encrypted before being saved.",
+            technologies: ['ExpressJS', 'EJS', 'NodeJS', 'Heroku', 'MongoDB'],
             appUrl: "https://keyholder-molina.herokuapp.com/",
             githubUrl: "https://github.com/edrdmolina/KeyHolder",
             image: KeyHolder1
@@ -71,6 +75,7 @@ const PortfolioData = {
         {
             name: "Pomodoro Timer",
             description:  "A pomodoro study technique timer created with the React Front End Technology. I created this project in order to complete the freeCodeCamp Front End Development Libraries certificate.",
+            technologies: ['ReactJS', 'Github Pages'],
             appUrl: "https://edrdmolina.github.io/Pomodoro-Timer/",
             githubUrl: "https://github.com/edrdmolina/Pomodoro-Timer",
             image: PomodoroTimer
@@ -78,6 +83,7 @@ const PortfolioData = {
         {
             name: "JavaScript Calculator",
             description:  "JavaScript Calculator using the Formula/Expression Logic created with the React Front End Technology. I created this project in order to complete the freeCodeCamp Front End Development Libraries certificate.",
+            technologies: ['ReactJS', 'Github Pages'],
             appUrl: "https://edrdmolina.github.io/JS-Calculator/",
             githubUrl: "https://github.com/edrdmolina/JS-Calculator",
             image: JSCalculator
@@ -85,6 +91,7 @@ const PortfolioData = {
         {
             name: "Quote Generator",
             description:  "Random quote generator with a twitter share button created with the React Front End Technology. I created this project in order to complete the freeCodeCamp Front End Development Libraries certificate.",
+            technologies: ['ReactJS', 'Github Pages', 'Axios'],
             appUrl: "https://edrdmolina.github.io/fcc-Quote-Generator/",
             githubUrl: "https://github.com/edrdmolina/fcc-Quote-Generator",
             image: QuoteGenerator
@@ -92,6 +99,7 @@ const PortfolioData = {
         {
             name: "Drum Machine",
             description:  "Drum Machine app created with the React Front End Technology. I created this project in order to complete the freeCodeCamp Front End Development Libraries certificate.",
+            technologies: ['ReactJS', 'Github Pages'],
             appUrl: "https://edrdmolina.github.io/Drum-Machine/",
             githubUrl: "https://github.com/edrdmolina/Drum-Machine",
             image: DrumMachine

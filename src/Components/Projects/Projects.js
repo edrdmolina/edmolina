@@ -12,11 +12,11 @@ import ProjectCard from './ProjectCard';
 const useStyles = createUseStyles({
     projects: {
         color: 'white',
-        height: '100vh',
         width: '100%',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
+        margin: '3rem 0',
 
         '& h2': {
             margin: '4rem'
@@ -28,10 +28,7 @@ const useStyles = createUseStyles({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-
-        border: '1px solid #000',
-        height: '1000px'
-
+        gap: '2rem'
 
     },
 
@@ -53,11 +50,23 @@ function Projects() {
     const classes = useStyles();
     const { projects } = PortfolioData;
 
+    const projectCards = projects.map((p, i) => {
+        if(i >= 4) {
+            return (
+                <div style={{ display: 'none' }}/>
+            )
+        } else {
+            return (
+                < ProjectCard key={i} {...p}/>
+            )
+        }
+    })
+
     return (
         <section id='Projects' className={classes.projects}>
             <h2>Projects</h2>    
             <div className={classes.projectsContainer}>
-                <ProjectCard {...projects}/>
+                {projectCards}
             </div>
         </section>
     )
