@@ -10,15 +10,26 @@ const useStyles = createUseStyles({
         borderRadius: '15px',
         border: '1px solid #8C8C8C',
         boxShadow: '3px 3px 5px 5px rgba(0,0,0,0.25)',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'space-between',
 
         '& h3': {
-            textAlign: 'center',
             borderBottom: '1px solid #8C8C8C',
-            margin: '1rem 0',
-            minHeight: '82.36px',
+            margin: '0',
+            width: '100%',
+            textAlign: 'center',
+            justifyContent: 'center',
+            height: '17%',
+            display: 'flex',
+            alignItems: 'center',
+
         },
     },
     courseRow: {
+        width: '95%',
+        height: '15%',
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-around',
@@ -27,7 +38,8 @@ const useStyles = createUseStyles({
         }
     },
     skillsList: {
-        minHeight: '210px',
+        height: '50%',
+        width: '90%',
 
         '& h5': {
             textAlign: 'center',
@@ -36,6 +48,7 @@ const useStyles = createUseStyles({
     },
     buttonRow: {
         width: '100%',
+        height: '8%',
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'center',
