@@ -7,6 +7,7 @@ import PortfolioData from '../../PortfolioData';
 
 // Components
 import SkillCard from './SkillCard';
+import Spinner from '../Spinner';
 
 // Styles
 const useStyles = createUseStyles({
@@ -90,10 +91,21 @@ const useStyles = createUseStyles({
 
 function Skills() {
     const [showMore, toggleShowMore] = useState(false);
+    const [loading, toggleLoading] = useState(false);
     const classes = useStyles();
     const { certificates } = PortfolioData;
 
-    const showMoreToggle = () => toggleShowMore(!showMore)
+    function showMoreToggle() {
+        if(!showMore) {
+            toggleLoading(true);
+            setTimeout(() => {
+                toggleLoading(false);
+                toggleShowMore(true);
+            }, 2000);
+        } else {
+            toggleShowMore(false);
+        }
+    }
 
     const skillCards = certificates.map((data, i) => {
         if(i >= 4 && !showMore) {
@@ -114,9 +126,13 @@ function Skills() {
                     {skillCards}
                 </div>
                 <div className={classes.btnContainer}>
-                    <button onClick={showMoreToggle}>
-                        {showMore ? 'SEE LESS' : 'SEE MORE' }
-                    </button>
+                    {loading ? (
+                        < Spinner />
+                    ) : (
+                        <button onClick={showMoreToggle}>
+                            {showMore ? 'SEE LESS' : 'SEE MORE' }
+                        </button>
+                    )}
                 </div>
             </div>
         </section>

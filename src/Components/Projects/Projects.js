@@ -7,6 +7,7 @@ import PortfolioData from '../../PortfolioData';
 
 // Components
 import ProjectCard from './ProjectCard';
+import Spinner from '../Spinner';
 
 // Styles
 const useStyles = createUseStyles({
@@ -67,10 +68,21 @@ const useStyles = createUseStyles({
 
 function Projects() {
     const [showMore, toggleShowMore] = useState(false);
+    const [loading, toggleLoading] = useState(false);
     const classes = useStyles();
     const { projects } = PortfolioData;
 
-    const showMoreToggle = () => toggleShowMore(!showMore)
+    function showMoreToggle() {
+        if(!showMore) {
+            toggleLoading(true);
+            setTimeout(() => {
+                toggleLoading(false);
+                toggleShowMore(true);
+            }, 2000);
+        } else {
+            toggleShowMore(false);
+        }
+    }
 
     const projectCards = projects.map((p, i) => {
         if(i >= 4 && !showMore) {
@@ -91,9 +103,13 @@ function Projects() {
                 {projectCards}
             </div>
             <div className={classes.btnContainer}>
-                <button onClick={showMoreToggle}>
-                    {showMore ? 'SEE LESS' : 'SEE MORE' }
-                </button>
+                    {loading ? (
+                        < Spinner />
+                    ) : (
+                        <button onClick={showMoreToggle}>
+                            {showMore ? 'SEE LESS' : 'SEE MORE' }
+                        </button>
+                    )}
             </div>
         </section>
     )
