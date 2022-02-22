@@ -34,10 +34,11 @@ import LoopRoadCar from './Documents/Photos/loopRoadCar.jpg';
 const PortfolioData = {
     contact: {
         name: "Eduardo Molina",
-        email: "edrdmolina11@gmail.com",
+        email: "edmolina.solutions@gmail.com",
         phone: "(786)567-2231",
         github: "https://github.com/edrdmolina",
         linkedin: "https://www.linkedin.com/in/eduardo-molina-78105a1a1/",
+        instagram: 'https://www.instagram.com/edrdnb1/'
     },
     projects: [
         {

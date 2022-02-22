@@ -18,7 +18,7 @@ const useStyles = createUseStyles({
     justifyContent: 'space-between',
     alignItems: 'center',
     position: 'fixed',
-    zIndex: '10',
+    zIndex: '20',
     transition: 'background-color 0.35s linear',
     paddingTop: '0.5rem',
   },

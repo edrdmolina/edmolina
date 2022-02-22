@@ -8,13 +8,14 @@ import Hero from "./Components/Hero";
 import About from './Components/About';
 import Skills from './Components/Skills/Skills';
 import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact';
 
 // Styles
 const useStyles = createUseStyles({
   App: {
     backgroundImage: 'linear-gradient(90deg, #AEB5BF, #61788C, #8C8C8C)',
-    backgroundSize: '300%',
-    animation: '$bg-animation 5s linear 0s infinite alternate',
+    backgroundSize: '500%',
+    animation: '$bg-animation 15s linear 0s infinite alternate',
   },
   '@keyframes bg-animation': {
     '0%': {
@@ -35,6 +36,7 @@ function App() {
       < About />
       < Skills />
       < Projects />
+      < Contact />
     </div>
   );
 }
