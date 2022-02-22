@@ -23,7 +23,7 @@ const useStyles = createUseStyles({
         }
     },
     projectsContainer: {
-        width: '100%',
+        width: '70%',
         maxWidth: '1800px',
         display: 'flex',
         flexDirection: 'column',
@@ -55,19 +55,6 @@ const useStyles = createUseStyles({
         },
         '& button:active': {
             transform: 'translate(1px,  1px)'
-        }
-    },
-
-    // 2K Screens
-    '@media (min-width: 2500px)': {
-        projectsContainer: {
-            maxWidth: '2300px',
-        }
-    },
-    // 4K Screens
-    '@media (min-width: 3000px)': {
-        projectsContainer: {
-            maxWidth: '3000px',
         }
     },
 })

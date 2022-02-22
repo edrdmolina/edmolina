@@ -5,10 +5,14 @@ import { createUseStyles } from 'react-jss';
 // Styles
 const useStyles = createUseStyles({
     projectCard: {
-        width: '80%',
+        width: '100%',
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
+        border: '1px solid #CCC',
+        padding: '2rem',
+        borderRadius: '10px',
+        backgroundColor: '#FFFFFF2F',
 
         '& img': {
             width: '65%',
@@ -69,11 +73,14 @@ const useStyles = createUseStyles({
         }
     },
     //! SMALL SCREENS
-    '@media (max-width: 768px)': {
+    '@media (max-width: 1200px)': {
         projectCard: {
             display: 'inline-block',
             position: 'relative',
-            // overflow: 'hidden',
+            border: 'none',
+            padding: '0',
+            borderRadius: '0',
+            backgroundColor: '#FFFFFF00',
 
             '& img': {
                 display: 'block',
