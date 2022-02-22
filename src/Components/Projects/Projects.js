@@ -16,10 +16,10 @@ const useStyles = createUseStyles({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        padding: '3rem 0',
+        padding: '2rem 0',
 
         '& h2': {
-            margin: '4rem'
+            margin: '2rem'
         }
     },
     projectsContainer: {

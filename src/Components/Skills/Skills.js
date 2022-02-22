@@ -15,7 +15,7 @@ const useStyles = createUseStyles({
         minHeight: '100vh',
         display: 'flex',
         justifyContent: 'center',
-        margin: '3rem 0',
+        margin: '2rem 0',
     },
     skillsContainer: {
         width: '100%',
@@ -27,11 +27,11 @@ const useStyles = createUseStyles({
         color: 'white',
         boxShadow: '0 0 5px 5px ##0D0D0DC9',
         alignItems: 'center',
-        paddingBottom: '2rem',
+        paddingBottom: '4rem',
         backgroundColor: '#FFFFFF2F',
 
         '& h2': {
-            margin: '4rem',
+            margin: '2rem',
             textAlign: 'center'
         }
     },
