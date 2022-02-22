@@ -18,8 +18,8 @@ const useStyles = createUseStyles({
         margin: '2rem 0',
     },
     skillsContainer: {
-        width: '100%',
-        maxWidth: '1800px',
+        width: '80%',
+        maxWidth: '1500px',
         border: '1px solid #8C8C8C',
         borderRadius: '15px',
         display: 'flex',
@@ -40,7 +40,12 @@ const useStyles = createUseStyles({
         gap: '2rem',
         alignItems: 'center',
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(22rem, 1fr))',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(18rem, 1fr))',
+    },
+    '@media (max-width: 768px)': {
+        skillsContainer: {
+            width: '100%',
+        }
     },
     // 2K Screens
     '@media (min-width: 2500px)': {
@@ -49,7 +54,7 @@ const useStyles = createUseStyles({
         }
     },
     // 4K Screens
-    '@media (min-width: 3000px)': {
+    '@media (min-width: 3200px)': {
         skillsContainer: {
             maxWidth: '3000px',
         }

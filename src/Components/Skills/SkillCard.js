@@ -5,8 +5,8 @@ import { createUseStyles } from 'react-jss';
 // Styles
 const useStyles = createUseStyles({
     SkillCard: {
-        height: '30rem',
-        width: '22rem',
+        height: '28rem',
+        width: '18rem',
         borderRadius: '15px',
         boxShadow: '3px 3px 5px 5px rgba(0,0,0,0.25)',
         display: 'flex',
@@ -17,7 +17,7 @@ const useStyles = createUseStyles({
         overflow: 'hidden',
         margin: '0 auto',
 
-        '& h3': {
+        '& h4': {
             borderBottom: '1px solid #8C8C8C',
             margin: '0',
             width: '100%',
@@ -92,7 +92,7 @@ function SkillCard(props) {
 
     return (
         <div className={classes.SkillCard}>
-            <h3>{name}</h3>
+            <h4>{name}</h4>
             <div className={classes.courseRow}>
                 <img src={logo} alt='Logo' className={classes.logo} />
                 <aside>
