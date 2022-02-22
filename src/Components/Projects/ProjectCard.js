@@ -28,19 +28,6 @@ const useStyles = createUseStyles({
         alignItems: 'flex-end',
         justifyContent: 'center',
         gap: '1rem',
-
-        '& ul': {
-            listStyle: 'none',
-            display: 'flex',
-            flexDirection: 'row',
-            flexWrap: 'wrap',
-            width: '100%',
-            justifyContent: 'flex-end',
-
-            '& li': {
-                margin: '0.25rem 0.25rem'
-            }
-        }
     },
     title: {
         textAlign: 'end',
@@ -56,6 +43,29 @@ const useStyles = createUseStyles({
         minHeight: '5rem',
         borderRadius: '10px'
     },
+
+    technologies: {
+        '& p': {
+            textAlign: 'end',
+            margin: '0 0 0.5rem 0',
+        },
+
+        '& ul': {
+            listStyle: 'none',
+            display: 'flex',
+            flexDirection: 'row',
+            flexWrap: 'wrap',
+            width: '100%',
+            margin: '0',
+            justifyContent: 'flex-end',
+            padding: '0',
+
+            '& li': {
+                margin: '0.25rem 0.25rem'
+            }
+        }
+    },
+
     links: {
         display: 'flex',
         flexDirection: 'row',
@@ -75,6 +85,7 @@ const useStyles = createUseStyles({
     //! SMALL SCREENS
     '@media (max-width: 1200px)': {
         projectCard: {
+            width: '100%',
             display: 'inline-block',
             position: 'relative',
             border: 'none',
@@ -103,20 +114,6 @@ const useStyles = createUseStyles({
             backgroundColor: '#0D0D0DC0',
             alignItems: 'flex-start',
             borderRadius: '10px',
-
-            '& ul': {
-                listStyle: 'none',
-                display: 'flex',
-                flexDirection: 'row',
-                flexWrap: 'wrap',
-                width: '95%',
-                justifyContent: 'flex-start',
-                paddingLeft: '1rem',
-    
-                '& li': {
-                    margin: '0.25rem 0.25rem'
-                }
-            }
         },
 
         title: {
@@ -131,6 +128,29 @@ const useStyles = createUseStyles({
             borderRadius: '10px',
             backgroundColor: 'transparent',
             margin: '0'
+        },
+
+        technologies: {
+            paddingLeft: '1rem',
+            '& p': {
+                textAlign: 'start',
+                margin: '0 0 0.5rem 0',
+            },
+    
+            '& ul': {
+                listStyle: 'none',
+                display: 'flex',
+                flexDirection: 'row',
+                flexWrap: 'wrap',
+                width: '100%',
+                margin: '0',
+                justifyContent: 'flex-start',
+                padding: '0',
+    
+                '& li': {
+                    margin: '0.25rem 0.25rem'
+                }
+            }
         },
 
         links: {
@@ -160,9 +180,12 @@ function ProjectCard(props) {
                     <h3>{data.name}</h3>
                 </div>
                 <p className={classes.description}>{data.description}</p>
-                <ul>
-                    {technologies}
-                </ul>
+                <div className={classes.technologies}>
+                    <p>Technologies:</p>
+                    <ul>
+                        {technologies}
+                    </ul>
+                </div>
                 <div className={classes.links}>
                     <a href={data.githubUrl} target="_blank" rel='noopener noreferrer'>
                         <i className="fab fa-github fa-2x" />

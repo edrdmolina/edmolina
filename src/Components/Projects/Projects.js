@@ -57,6 +57,12 @@ const useStyles = createUseStyles({
             transform: 'translate(1px,  1px)'
         }
     },
+
+    '@media (max-width: 768px)': {
+        projectsContainer: {
+            width: '90%',
+        }
+    }
 })
 
 function Projects() {
