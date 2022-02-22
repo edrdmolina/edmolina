@@ -67,11 +67,16 @@ const useStyles = createUseStyles({
         }
     },
     // 4K Screens
-  '@media (min-width: 3000px)': {
-    heroContent: {
-      maxWidth: '3000px',
+    '@media (min-width: 3000px)': {
+        heroContent: {
+        maxWidth: '3000px',
+        }
+    },
+    '@media (max-width: 768px)': {
+        header1: {
+            width: '95%'
+        }
     }
-  }
 })
 
 function Hero() {
