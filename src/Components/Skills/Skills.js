@@ -1,5 +1,5 @@
 // Libraries
-import React from 'react';
+import React, { useState } from 'react';
 import { createUseStyles } from 'react-jss';
 
 // Data
@@ -12,7 +12,6 @@ import SkillCard from './SkillCard';
 const useStyles = createUseStyles({
     skills: {
         width: '100%',
-        minHeight: '100vh',
         display: 'flex',
         justifyContent: 'center',
         margin: '2rem 0',
@@ -42,6 +41,33 @@ const useStyles = createUseStyles({
         display: 'grid',
         gridTemplateColumns: 'repeat(auto-fit, minmax(18rem, 1fr))',
     },
+
+    btnContainer: {
+        width: '100%',
+        height: '8%',
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        margin: '3rem 0 0 0',
+
+        '& button': {
+            backgroundColor: '#61788C',
+            color: '#E4E5E3',
+            outline: 'none',
+            border: 'none',
+            borderRadius: '5px',
+            padding: '0.5rem 1rem',
+            cursor: 'pointer',
+        },
+        '& button:hover': {
+            backgroundColor: '#71889C',
+
+        },
+        '& button:active': {
+            transform: 'translate(1px,  1px)'
+        }
+    },
+
     '@media (max-width: 768px)': {
         skillsContainer: {
             width: '100%',
@@ -63,11 +89,18 @@ const useStyles = createUseStyles({
 })
 
 function Skills() {
+    const [showMore, toggleShowMore] = useState(false);
     const classes = useStyles();
-    
     const { certificates } = PortfolioData;
 
+    const showMoreToggle = () => toggleShowMore(!showMore)
+
     const skillCards = certificates.map((data, i) => {
+        if(i >= 4 && !showMore) {
+            return (
+                <div key={i} style={{ display: 'none' }} />
+            )
+        }
         return (
             <SkillCard key={i} {...data} />
         )
@@ -79,6 +112,11 @@ function Skills() {
                 <h2>Skills And Certificates</h2>
                 <div className={classes.certificateContainer}>
                     {skillCards}
+                </div>
+                <div className={classes.btnContainer}>
+                    <button onClick={showMoreToggle}>
+                        {showMore ? 'SEE LESS' : 'SEE MORE' }
+                    </button>
                 </div>
             </div>
         </section>

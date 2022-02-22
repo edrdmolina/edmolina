@@ -69,13 +69,13 @@ function Contact() {
             <p className={classes.email} onClick={emailTo}>{email}</p>
             <div className={classes.links}>
                 <a href={github} target="_blank" rel='noopener noreferrer'>
-                    <i class="fab fa-github-alt fa-3x" />
+                    <i className="fab fa-github-alt fa-3x" />
                 </a>
                 <a href={linkedin} target="_blank" rel='noopener noreferrer'>
-                    <i class="fab fa-linkedin-in fa-3x" />
+                    <i className="fab fa-linkedin-in fa-3x" />
                 </a>
                 <a href={instagram} target="_blank" rel='noopener noreferrer'>
-                    <i class="fab fa-instagram fa-3x" />
+                    <i className="fab fa-instagram fa-3x" />
                 </a>
             </div>
         </section>

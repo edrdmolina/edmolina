@@ -1,5 +1,5 @@
 // Libraries
-import React from 'react';
+import React, { useState } from 'react';
 import { createUseStyles } from 'react-jss';
 
 // Data
@@ -66,11 +66,14 @@ const useStyles = createUseStyles({
 })
 
 function Projects() {
+    const [showMore, toggleShowMore] = useState(false);
     const classes = useStyles();
     const { projects } = PortfolioData;
 
+    const showMoreToggle = () => toggleShowMore(!showMore)
+
     const projectCards = projects.map((p, i) => {
-        if(i >= 4) {
+        if(i >= 4 && !showMore) {
             return (
                 <div key={i} style={{ display: 'none' }}/>
             )
@@ -88,7 +91,9 @@ function Projects() {
                 {projectCards}
             </div>
             <div className={classes.btnContainer}>
-                <button>SEE MORE</button>
+                <button onClick={showMoreToggle}>
+                    {showMore ? 'SEE LESS' : 'SEE MORE' }
+                </button>
             </div>
         </section>
     )
