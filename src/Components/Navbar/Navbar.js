@@ -26,6 +26,7 @@ const useStyles = createUseStyles({
     height: '2.5rem',
     width: '2.5rem',
     margin: '0 1rem',
+    cursor: 'pointer',
   },
   Nav: {
     width: '20rem',
@@ -114,10 +115,13 @@ function Navbar() {
     }
   }
 
+  function goHome() {
+    window.location.href = './#Hero'
+  }
 
   return (
     <nav id='Navbar' className={classes.Navbar} style={{ backgroundColor: isPastHero ? '#0D0D0D8F' : '' }}>
-      <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon} />
+      <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon} onClick={goHome}/>
       < HamburgerBtn toggleNav={toggleNav} isActive={isActive} />
       <div id='Nav' className={`${classes.Nav} ${isActive ? classes.active : classes.inActive}`}>
         <a href='#Hero'>Home</a>
