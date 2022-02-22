@@ -57,7 +57,7 @@ const useStyles = createUseStyles({
     },
     Nav: {
       flexDirection: 'column',
-      width: '20%',
+      width: '7rem',
       alignItems: 'flex-end',
       backgroundColor: '#0D0D0D8F',
       margin: '0',
