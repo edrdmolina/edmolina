@@ -13,9 +13,9 @@ import Contact from './Components/Contact';
 // Styles
 const useStyles = createUseStyles({
   App: {
-    backgroundImage: 'linear-gradient(90deg, #AEB5BF, #61788C, #8C8C8C)',
+    backgroundImage: 'linear-gradient(90deg, #AEB5BF, #61788C, #BFB49E, #8C8C8C, #61788C, #AEB5BF)',
     backgroundSize: '500%',
-    animation: '$bg-animation 15s linear 0s infinite alternate',
+    animation: '$bg-animation 30s linear 0s infinite alternate',
   },
   '@keyframes bg-animation': {
     '0%': {
