@@ -31,7 +31,8 @@ const useStyles = createUseStyles({
         backgroundColor: '#FFFFFF2F',
 
         '& h2': {
-            margin: '4rem'
+            margin: '4rem',
+            textAlign: 'center'
         }
     },
     certificateContainer: {
