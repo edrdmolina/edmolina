@@ -15,11 +15,11 @@ const useStyles = createUseStyles({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        transform: 'scale(0) rotate(45deg)',
 
         '& img': {
             color: 'white',
-            animation: '$grow 2s linear 0s'
+            animation: '$grow 2s linear 0s',
+            transform: 'scale(0) rotate(45deg)',
         }
     },
 
