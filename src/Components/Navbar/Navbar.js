@@ -61,22 +61,18 @@ const useStyles = createUseStyles({
       alignItems: 'flex-end',
       backgroundColor: '#0D0D0D8F',
       margin: '0',
-      borderRadius: '10px 0 0 10px',
-      padding: '1rem 0',
+      borderRadius: '0 0 0 5px',
+      padding: '3rem 0 1rem 0',
       '& a': {
         margin: '1rem 1rem',
       },
+      position: 'relative',
+      top: '-3rem',
+      left: '150px',
+      transition: 'transform 0.75s linear',
     },
     active: {
-      transform: 'translateX(0px)',
-      transition: 'transform 0.75s ease-in',
-      '& a': {
-        opacity: '1'
-      }
-    },
-    inActive: {
-      transform: 'translateX(150px)',
-      transition: 'transform 0.75s ease-in',
+      transform: 'translateX(-150px)',
     },
   },
   active: {},
@@ -97,9 +93,9 @@ function Navbar() {
 
   })
 
-  function toggleNav() {
-    toggleIsActive(!isActive)
-  }
+  const toggleNav = () => toggleIsActive(!isActive)
+
+  const hideNav = () => toggleIsActive(false);
 
   function changeBackground() {
     const navbar = document.querySelector('#Navbar');
@@ -124,11 +120,11 @@ function Navbar() {
       <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon} onClick={goHome}/>
       < HamburgerBtn toggleNav={toggleNav} isActive={isActive} />
       <div id='Nav' className={`${classes.Nav} ${isActive ? classes.active : classes.inActive}`}>
-        <a href='#Hero'>Home</a>
-        <a href='#About'>About</a>
-        <a href='#Skills'>Skills</a>
-        <a href='#Projects'>Projects</a>
-        <a href='#Contact'>Contact</a>
+        <a href='#Hero' onClick={hideNav}>Home</a>
+        <a href='#About' onClick={hideNav}>About</a>
+        <a href='#Skills' onClick={hideNav}>Skills</a>
+        <a href='#Projects' onClick={hideNav}>Projects</a>
+        <a href='#Contact' onClick={hideNav}>Contact</a>
       </div>
     </nav>
   )

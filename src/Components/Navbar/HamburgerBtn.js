@@ -12,9 +12,14 @@ const useStyles = createUseStyles({
         justifyContent: 'space-around',
         right: '1rem',
         top: '1rem',
+        zIndex: '25',
+        border: '1px solid #CCC',
+        borderRadius: '5px',
+        padding: '0.25rem',
 
         '&:hover': {
-            cursor: 'pointer'
+            cursor: 'pointer',
+            border: '1px solid #AAA',
         },
 
         '& span': {
