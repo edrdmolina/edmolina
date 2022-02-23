@@ -1,6 +1,7 @@
 // Libraries
-import React from 'react'
+import React, { useEffect } from 'react';
 import { createUseStyles } from 'react-jss';
+import axios from 'axios';
 
 // Components
 import Navbar from "./Components/Navbar/Navbar";
@@ -29,6 +30,16 @@ const useStyles = createUseStyles({
 
 function App() {
   const classes = useStyles();
+
+  useEffect(() => {
+    sendMetaData()
+  })
+
+  async function sendMetaData() {
+    const res = await axios.put('https://multi-purpose-api.herokuapp.com/api/portfolio');
+    console.log(`Hello ${res.data.ipAddress}, welcome to my portfolio.\nDon't mind me, I'm only counting the amount of visits to my site.`)
+  }
+
   return (
     <div className={classes.App}>
       < Navbar />
