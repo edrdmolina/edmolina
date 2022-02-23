@@ -15,6 +15,7 @@ const useStyles = createUseStyles({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        transform: 'scale(0) rotate(45deg)',
 
         '& img': {
             color: 'white',
