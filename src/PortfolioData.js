@@ -45,7 +45,7 @@ const PortfolioData = {
             name: "React List",
             description: "All of the basics you need in order to create multiple shopping lists. with the ability to cross of items while shopping and editing items in case of a typo or quantity error.",
             technologies: ['MongoDB', 'ExpressJS', 'ReactJS', 'NodeJS', 'Heroku', 'Mongo Atlas', 'Passport'],
-            appUrl: "https://listapp-molina.herokuapp.com/",
+            appUrl: "http://reactlist-env.eba-9jb6hvi7.us-east-1.elasticbeanstalk.com/",
             githubUrl: "https://github.com/edrdmolina/React-List-App",
             image: ReactList1
         },
