@@ -78,7 +78,7 @@ function Projects() {
             setTimeout(() => {
                 toggleLoading(false);
                 toggleShowMore(true);
-            }, 2000);
+            }, 1250);
         } else {
             toggleShowMore(false);
         }
