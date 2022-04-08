@@ -36,12 +36,12 @@ const useStyles = createUseStyles({
     alignItems: 'center',
     margin: '0 1rem',
 
-    '& a': {
+    '& p': {
       textDecoration: 'none',
       color: 'white',
     },
 
-    '& a:hover': {
+    '& p:hover': {
       cursor: 'pointer',
       textDecoration: 'underline'
     }
@@ -63,7 +63,7 @@ const useStyles = createUseStyles({
       margin: '0',
       borderRadius: '0 0 0 5px',
       padding: '3rem 0 1rem 0',
-      '& a': {
+      '& p': {
         margin: '1rem 1rem',
       },
       position: 'relative',
@@ -111,20 +111,23 @@ function Navbar() {
     }
   }
 
-  function goHome() {
-    window.location.href = './#Hero'
+  function scrollTo(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    hideNav();
   }
+
+
 
   return (
     <nav id='Navbar' className={classes.Navbar} style={{ backgroundColor: isPastHero ? '#0D0D0D8F' : '' }}>
-      <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon} onClick={goHome}/>
+      <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon} onClick={() => scrollTo('Hero')}/>
       < HamburgerBtn toggleNav={toggleNav} isActive={isActive} />
       <div id='Nav' className={`${classes.Nav} ${isActive ? classes.active : classes.inActive}`}>
-        <a href='#Hero' onClick={hideNav}>Home</a>
-        <a href='#About' onClick={hideNav}>About</a>
-        <a href='#Skills' onClick={hideNav}>Skills</a>
-        <a href='#Projects' onClick={hideNav}>Projects</a>
-        <a href='#Contact' onClick={hideNav}>Contact</a>
+        <p onClick={() => scrollTo('Hero')}>Home</p>
+        <p onClick={() => scrollTo('About')}>About</p>
+        <p onClick={() => scrollTo('Skills')}>Skills</p>
+        <p onClick={() => scrollTo('Projects')}>Projects</p>
+        <p onClick={() => scrollTo('Contact')}>Contact</p>
       </div>
     </nav>
   )
