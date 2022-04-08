@@ -114,7 +114,8 @@ function Navbar() {
   }
 
   function scrollTo(id) {
-    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    let top = document.getElementById(id).getBoundingClientRect().y - 90;
+    window.scrollBy({ top, left: 0, behavior: 'smooth' })
     hideNav();
   }
 
