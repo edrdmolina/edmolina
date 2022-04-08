@@ -14,6 +14,7 @@ const useStyles = createUseStyles({
         alignItems: 'center',
         justifyContent: 'space-evenly',
         padding: '3rem 0',
+        marginTop: '5rem'
     },
     Type: {
         width: '35%',
