@@ -47,6 +47,7 @@ const useStyles = createUseStyles({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'space-between',
+        cursor: 'pointer',
         
         '& p': {
             display: 'inline',
@@ -82,6 +83,11 @@ const useStyles = createUseStyles({
 function Hero() {
     const classes = useStyles();
 
+    function scrollDown() {
+        console.log("Scrolling");
+        window.scrollBy({ top: window.innerHeight, left: 0, behavior: 'smooth' });
+    }
+
     return (
         <section id='Hero' className={classes.HeroBg}>
             <div className={classes.shader} />
@@ -91,7 +97,7 @@ function Hero() {
                     <br/>
                     I design & build Web Apps
                 </h1>
-                <div className={classes.message}>
+                <div className={classes.message} onClick={scrollDown}>
                     <p>Scroll Down to see more</p>
                     <i className="fas fa-chevron-down fa-2x" />
                 </div>
