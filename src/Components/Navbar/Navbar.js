@@ -57,7 +57,6 @@ const useStyles = createUseStyles({
     Navbar: {
       flexDirection: 'column',
       alignItems: 'flex-end',
-      height: '110vh',
     },
     Icon: {
       marginRight: 'auto'
@@ -67,14 +66,15 @@ const useStyles = createUseStyles({
       justifyContent: 'center',
       gap: '3rem',
       width: '100vw',
-      height: '100%',
+      height: '100vh',
       alignItems: 'flex-end',
       backgroundColor: '#0D0D0DF0',
       margin: '0',
-      position: 'relative',
-      top: '-3.5rem',
+      position: 'absolute',
+      top: '0',
       left: '100vw',
       transition: 'transform 0.35s linear',
+      zIndex: '20',
       '& p, a': {
         margin: '1rem 1rem',
       },
@@ -129,12 +129,12 @@ function Navbar() {
       <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon} onClick={() => scrollTo('Hero')}/>
       < HamburgerBtn toggleNav={toggleNav} isActive={isActive} />
       <div id='Nav' className={`${classes.Nav} ${isActive ? classes.active : classes.inActive}`}>
-        <p onClick={ () => handleScrollTo('Hero') }>Home</p>
-        <p onClick={ () => handleScrollTo('About') }>About</p>
-        <p onClick={ () => handleScrollTo('Skills') }>Skills</p>
-        <p onClick={ () => handleScrollTo('Projects') }>Projects</p>
-        <p onClick={ () => handleScrollTo('Contact') }>Contact</p>
-        <a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a>
+          <p onClick={ () => handleScrollTo('Hero') }>Home</p>
+          <p onClick={ () => handleScrollTo('About') }>About</p>
+          <p onClick={ () => handleScrollTo('Skills') }>Skills</p>
+          <p onClick={ () => handleScrollTo('Projects') }>Projects</p>
+          <p onClick={ () => handleScrollTo('Contact') }>Contact</p>
+          <a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
     </nav>
   )
