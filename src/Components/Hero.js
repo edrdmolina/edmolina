@@ -3,7 +3,10 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 
 // Images
-import HeroImage from '../Documents/HeroBackground.jpeg'
+import HeroImage from '../Documents/HeroBackground.jpeg';
+
+// Hooks
+import scrollTo from '../Helpers/scrollTo';
 
 // Styles
 const useStyles = createUseStyles({
@@ -83,10 +86,6 @@ const useStyles = createUseStyles({
 function Hero() {
     const classes = useStyles();
 
-    function scrollDown() {
-        window.scrollBy({ top: window.innerHeight, left: 0, behavior: 'smooth' });
-    }
-
     return (
         <section id='Hero' className={classes.HeroBg}>
             <div className={classes.shader} />
@@ -96,7 +95,7 @@ function Hero() {
                     <br/>
                     I design & build Web Apps
                 </h1>
-                <div className={classes.message} onClick={scrollDown}>
+                <div className={classes.message} onClick={ () => scrollTo('About') }>
                     <p>Scroll Down to see more</p>
                     <i className="fas fa-chevron-down fa-2x" />
                 </div>
