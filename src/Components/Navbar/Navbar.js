@@ -8,6 +8,12 @@ import HamburgerBtn from './HamburgerBtn';
 // Icon
 import Icon from '../../Documents/Logo2.png';
 
+// Documents
+import Resume from '../../Documents/Resume.pdf'
+
+// Hooks
+import scrollTo from '../../Helpers/scrollTo';
+
 // Styles
 const useStyles = createUseStyles({
   Navbar: {
@@ -29,19 +35,19 @@ const useStyles = createUseStyles({
     cursor: 'pointer',
   },
   Nav: {
-    width: '20rem',
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
+    gap: '1rem',
     alignItems: 'center',
     margin: '0 1rem',
 
-    '& p': {
+    '& p, a': {
       textDecoration: 'none',
       color: 'white',
     },
 
-    '& p:hover': {
+    '& p:hover, a:hover': {
       cursor: 'pointer',
       textDecoration: 'underline'
     }
@@ -69,7 +75,7 @@ const useStyles = createUseStyles({
       top: '-3.5rem',
       left: '100vw',
       transition: 'transform 0.35s linear',
-      '& p': {
+      '& p, a': {
         margin: '1rem 1rem',
       },
     },
@@ -113,24 +119,22 @@ function Navbar() {
     }
   }
 
-  function scrollTo(id) {
-    let top = document.getElementById(id).getBoundingClientRect().y - 90;
-    window.scrollBy({ top, left: 0, behavior: 'smooth' })
+  function handleScrollTo(id) {
+    scrollTo(id);
     hideNav();
   }
-
-
 
   return (
     <nav id='Navbar' className={classes.Navbar} style={{ backgroundColor: isPastHero ? '#0D0D0D8F' : '' }}>
       <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon} onClick={() => scrollTo('Hero')}/>
       < HamburgerBtn toggleNav={toggleNav} isActive={isActive} />
       <div id='Nav' className={`${classes.Nav} ${isActive ? classes.active : classes.inActive}`}>
-        <p onClick={() => scrollTo('Hero')}>Home</p>
-        <p onClick={() => scrollTo('About')}>About</p>
-        <p onClick={() => scrollTo('Skills')}>Skills</p>
-        <p onClick={() => scrollTo('Projects')}>Projects</p>
-        <p onClick={() => scrollTo('Contact')}>Contact</p>
+        <p onClick={ () => handleScrollTo('Hero') }>Home</p>
+        <p onClick={ () => handleScrollTo('About') }>About</p>
+        <p onClick={ () => handleScrollTo('Skills') }>Skills</p>
+        <p onClick={ () => handleScrollTo('Projects') }>Projects</p>
+        <p onClick={ () => handleScrollTo('Contact') }>Contact</p>
+        <a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
     </nav>
   )
