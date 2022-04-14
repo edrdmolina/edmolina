@@ -61,7 +61,7 @@ const PortfolioData = {
             name: "Multipurpose Express API",
             description: "The Multipurpose Express API was designed to serve as a flexible back-end server for multiple front-end projects. The API has multiple routes that anyone can use.",
             technologies: ['ExpressJS', 'ReactJS', 'NodeJS', 'Heroku', 'Open Weather', 'Map Quest API', 'Cheerio'],
-            appUrl: "http://multipurpose-env.eba-mjune5ps.us-east-1.elasticbeanstalk.com/",
+            appUrl: "https://multi-purpose-api.herokuapp.com/",
             githubUrl: "https://github.com/edrdmolina/Multipurpose-ExpressJS",
             image: Multipurpose
         },
