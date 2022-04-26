@@ -16,7 +16,7 @@ const useStyles = createUseStyles({
       paddingTop: '1rem',
       display: 'grid',
       gap: '1rem',
-      gridTemplateColumns: '1fr 1fr'
+      gridTemplateColumns: '1fr 1fr',
     },
 
     '@media (max-width: 768px)': {
