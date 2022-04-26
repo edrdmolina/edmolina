@@ -14,6 +14,18 @@
     font-size: 18px;
     font-family: 'Ubuntu-Regular';
     background-color: #0D0D0D;
+    background-image: linear-gradient(90deg, #AEB5BF, #61788C, #BFB49E, #8C8C8C, #61788C, #AEB5BF);
+    background-size: 500%;
+    animation: bg-animation 30s linear 0s infinite alternate;
+  }
+
+  @keyframes bg-animation {
+    from {
+      background-position: right;
+    }
+    to {
+      background-position: left;
+    }
   }
 
   @media (min-width: 2500px) {
