@@ -110,13 +110,9 @@ function Navbar() {
     const navbarHeight = navbar.offsetHeight;
     const windowHeight = window.innerHeight;
     const navbarScrollTop = window.scrollY;
-    const windowWidth = window.innerWidth;
-    // const windowWidth = ;
-    if((navbarScrollTop + navbarHeight) > windowHeight && windowWidth > 768) {
-      toggleIsPastHero(true);
-    } else {
-      toggleIsPastHero(false)
-    }
+
+    if((navbarScrollTop + navbarHeight) > windowHeight) toggleIsPastHero(true);
+    else toggleIsPastHero(false)
   }
 
   function handleScrollTo(id) {
