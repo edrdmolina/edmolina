@@ -3,12 +3,14 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 import Header from '../Components/Photography/Header';
 import PhotographyNav from '../Components/Photography/PhotographyNav';
+import Photographs from '../Components/Photography/Photographs';
 
 // Styles
 const useStyles = createUseStyles({
   Photography: {
-    minHeight: '100vh',
-    width: '100vw',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
   }
 })
 
@@ -18,6 +20,7 @@ function Photography() {
     <div className={classes.Photography}>
       < PhotographyNav />
       < Header />
+      < Photographs />
     </div>
   );
 }
