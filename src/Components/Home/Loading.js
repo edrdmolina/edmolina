@@ -34,10 +34,10 @@ const useStyles = createUseStyles({
 
     '@keyframes grow': {
         from: {
-            transform: 'scale(0) rotate(45deg)',
+            transform: 'scale(0)',
         },
         to: {
-            transform: 'scale(1) rotate(0deg)'
+            transform: 'scale(1)'
         }
     }
 })
