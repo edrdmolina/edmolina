@@ -8,7 +8,7 @@ import scrollTo from '../../Helpers/scrollTo.js'
 const useStyles = createUseStyles({
   Header: {
     height: '100vh',
-    width: '100vw',
+    width: '100%',
     color: 'white',
     display: 'flex',
     flexDirection: 'column',
@@ -18,7 +18,7 @@ const useStyles = createUseStyles({
     '& section': {
       width: '90%',
       maxWidth: '1000px',
-      marginTop: '10rem',
+      marginTop: '25vh',
 
       '& h1': {
         display: 'inline-block'
