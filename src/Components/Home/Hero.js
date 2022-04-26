@@ -3,10 +3,10 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 
 // Images
-import HeroImage from '../Documents/HeroBackground.jpeg';
+import HeroImage from '../../Documents/HeroBackground.jpeg';
 
 // Hooks
-import scrollTo from '../Helpers/scrollTo';
+import scrollTo from '../../Helpers/scrollTo';
 
 // Styles
 const useStyles = createUseStyles({

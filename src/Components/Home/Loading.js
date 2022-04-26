@@ -3,7 +3,7 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 
 // Icon
-import Icon from '../Documents/Logo2.png';
+import Icon from '../../Documents/Logo2.png';
 
 const useStyles = createUseStyles({
     Loading: {

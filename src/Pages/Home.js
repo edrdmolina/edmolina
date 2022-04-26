@@ -3,13 +3,13 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 // Components
-import Loading from '../Components/Loading';
+import Loading from '../Components/Home/Loading';
 import Navbar from "../Components/Navbar/Navbar";
-import Hero from "../Components/Hero";
-import About from '../Components/About';
-import Skills from '../Components/Skills/Skills';
-import Projects from '../Components/Projects/Projects';
-import Contact from '../Components/Contact';
+import Hero from "../Components/Home/Hero";
+import About from '../Components/Home/About';
+import Skills from '../Components/Home/Skills/Skills';
+import Projects from '../Components/Home/Projects/Projects';
+import Contact from '../Components/Home/Contact';
 
 function Home() {
   const [loading, updateLoading] = useState(true);

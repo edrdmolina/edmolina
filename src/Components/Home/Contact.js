@@ -3,7 +3,7 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 
 // Data
-import PortfolioData from '../PortfolioData';
+import PortfolioData from '../../PortfolioData';
 
 // Styles
 const useStyles = createUseStyles({

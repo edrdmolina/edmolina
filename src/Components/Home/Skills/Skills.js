@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { createUseStyles } from 'react-jss';
 
 // Data
-import PortfolioData from '../../PortfolioData';
+import PortfolioData from '../../../PortfolioData';
 
 // Components
 import SkillCard from './SkillCard';

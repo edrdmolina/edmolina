@@ -3,7 +3,7 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 
 // Documents
-import Portrait from '../Documents/Portrait.jpg';
+import Portrait from '../../Documents/Portrait.jpg';
 
 // Styles
 const useStyles = createUseStyles({
