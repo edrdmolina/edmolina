@@ -1,10 +1,12 @@
 import React from 'react';
+import Header from '../Components/Photography/Header';
+import PhotographyNav from '../Components/Photography/PhotographyNav';
 
 function Photography() {
   return (
     <div>
-      <h1>ijoeurngiou9eq</h1>
-
+      < PhotographyNav />
+      < Header />
     </div>
   );
 }

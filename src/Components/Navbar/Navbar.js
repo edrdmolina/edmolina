@@ -95,10 +95,7 @@ function Navbar() {
   const [isPastHero, toggleIsPastHero] = useState(false);
 
   useEffect(() => {
-    window.addEventListener('scroll', () => {
-      changeBackground()
-    })
-
+    window.addEventListener('scroll', () => changeBackground())
   })
 
   const toggleNav = () => toggleIsActive(!isActive)
@@ -130,6 +127,7 @@ function Navbar() {
           <p onClick={ () => handleScrollTo('Skills') }>Skills</p>
           <p onClick={ () => handleScrollTo('Projects') }>Projects</p>
           <p onClick={ () => handleScrollTo('Contact') }>Contact</p>
+          <a href='/photography'>Photography</a>
           <a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
     </nav>
