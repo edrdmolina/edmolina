@@ -6,13 +6,13 @@ import { createUseStyles } from 'react-jss';
 import HamburgerBtn from './HamburgerBtn';
 
 // Icon
-import Icon from '../../Documents/Logo2.png';
+import Icon from '../../../Documents/Logo2.png';
 
 // Documents
-import Resume from '../../Documents/Resume.pdf'
+import Resume from '../../../Documents/Resume.pdf'
 
 // Hooks
-import scrollTo from '../../Helpers/scrollTo';
+import scrollTo from '../../../Helpers/scrollTo';
 
 // Styles
 const useStyles = createUseStyles({

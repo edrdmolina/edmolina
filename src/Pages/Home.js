@@ -4,7 +4,7 @@ import axios from 'axios';
 
 // Components
 import Loading from '../Components/Home/Loading';
-import Navbar from "../Components/Navbar/Navbar";
+import Navbar from "../Components/Home/Navbar/Navbar";
 import Hero from "../Components/Home/Hero";
 import About from '../Components/Home/About';
 import Skills from '../Components/Home/Skills/Skills';
