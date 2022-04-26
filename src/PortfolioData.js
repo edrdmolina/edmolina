@@ -185,7 +185,7 @@ const PortfolioData = {
             ]
         },
     ],
-    filmPhotos: [
+    photos: [
         {
             name: 'Changi Train Station',
             location: 'Singapore',
