@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { createUseStyles } from 'react-jss';
 
+import scrollTo from '../../Helpers/scrollTo.js'
+
 // Icon
 import Icon from '../../Documents/Logo2.png';
 
@@ -60,7 +62,7 @@ function PhotographyNav() {
 
   return (
     <nav id='Navbar' className={classes.Navbar} style={{ backgroundColor: isPastHero ? '#0D0D0D8F' : '' }}>
-      <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon} />
+      <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon} onClick={ () => scrollTo('Header') }/>
       <a href='/'>Home</a>
     </nav>
   )
