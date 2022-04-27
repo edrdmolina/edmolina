@@ -40,8 +40,6 @@ const useStyles = createUseStyles({
   },
 })
 
-// 768 break point
-
 function PhotographyNav() {
   const classes = useStyles();
   const [isPastHero, toggleIsPastHero] = useState(false);
@@ -63,7 +61,7 @@ function PhotographyNav() {
   return (
     <nav id='Navbar' className={classes.Navbar} style={{ backgroundColor: isPastHero ? '#0D0D0D8F' : '' }}>
       <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon} onClick={ () => scrollTo('Header') }/>
-      <a href='/'>Home</a>
+      <a href='/'>Web Development</a>
     </nav>
   )
 }
