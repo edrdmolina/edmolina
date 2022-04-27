@@ -31,7 +31,11 @@ const useStyles = createUseStyles({
 
         '& li': {
             listStyle: 'none',
-            margin: '2rem 0'
+            margin: '2rem 0',
+
+            '& p': {
+                fontSize: '0.75rem'
+            }
         },
     }
 })
