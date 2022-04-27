@@ -77,7 +77,7 @@ const useStyles = createUseStyles({
       transition: 'transform 0.35s linear',
       zIndex: '20',
       '& p, a': {
-        margin: '1rem 1rem',
+        margin: '0.15rem 1rem',
       },
     },
     active: {
