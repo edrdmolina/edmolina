@@ -1,6 +1,7 @@
 // Libraries
 import React, { useState, useEffect } from 'react';
 import { createUseStyles } from 'react-jss';
+import { Link } from 'react-router-dom';
 
 // Components
 import HamburgerBtn from './HamburgerBtn';
@@ -127,7 +128,7 @@ function Navbar() {
           <p onClick={ () => handleScrollTo('Skills') }>Skills</p>
           <p onClick={ () => handleScrollTo('Projects') }>Projects</p>
           <p onClick={ () => handleScrollTo('Contact') }>Contact</p>
-          <a href='/photography'>Photography</a>
+          <Link to='/photography'>Photography</Link>
           <a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
     </nav>
