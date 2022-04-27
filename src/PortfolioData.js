@@ -30,6 +30,12 @@ import BendingArc from './Documents/Photos/BendingArc.jpg';
 import TheLandmark from './Documents/Photos/The-Landmark.jpg';
 import SinnersParadise from './Documents/Photos/Sinners-Paradise.jpg';
 import LoopRoadCar from './Documents/Photos/loopRoadCar.jpg';
+import BokTowerPond from './Documents/Photos/BokTowerPond.jpg'
+import GreenHouseLunch from './Documents/Photos/GreenHouseLunch.jpg'
+import CannonLookOut from './Documents/Photos/CannonLookOut.jpg'
+import ThroughTheTrees from './Documents/Photos/ThroughTheTrees.jpg'
+import ChevyBelAir from './Documents/Photos/ChevyBelAir.jpg'
+import ChevyBelAir2 from './Documents/Photos/ChevyBelAir2.jpg'
 
 const PortfolioData = {
     contact: {
@@ -241,6 +247,48 @@ const PortfolioData = {
             camera: 'Pentax K1000',
             filmStock: 'Kodak Portra 400',
             image: LoopRoadCar
+        },
+        {
+            name: 'Green House Lunch',
+            location: 'Pike Place Seattle',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Ultramax 400',
+            image: GreenHouseLunch
+        },
+        {
+            name: 'Cannon Beach Lookout',
+            location: 'Ecola State Park Oregon',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Portra 400',
+            image: CannonLookOut
+        },
+        {
+            name: 'Through The Trees',
+            location: 'Ecola State Park Oregon',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Portra 400',
+            image: ThroughTheTrees
+        },
+        {
+            name: '\'67 Chevy Bel Air Inside',
+            location: 'Vista House Oregon',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Portra 400',
+            image: ChevyBelAir
+        },
+        {
+            name: '\'67 Chevy Bel Air',
+            location: 'Vista House Oregon',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Portra 400',
+            image: ChevyBelAir2
+        },
+        {
+            name: 'Bok Tower Pond',
+            location: 'Bok Tower Gardens',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Ultramax 400',
+            image: BokTowerPond
         },
 
     ]
