@@ -8,21 +8,26 @@ import Photo from './Photo';
 
 // Styles
 const useStyles = createUseStyles({
-    Photographs: {
-      minHeight: '100vh',
-      width: '90%',
-      maxWidth: '1000px',
-      margin: '2rem 0',
-      paddingTop: '1rem',
-      display: 'grid',
-      gap: '1rem',
-      gridTemplateColumns: '1fr 1fr',
-    },
+  Photographs: {
+    minHeight: '100vh',
+    width: '90%',
+    maxWidth: '1000px',
+    margin: '2rem 0',
+    paddingTop: '1rem',
+    display: 'grid',
+    gap: '1rem',
+    gridTemplateColumns: '1fr 1fr 1fr',
+  },
 
-    '@media (max-width: 768px)': {
-      Photographs: {
-        gridTemplateColumns: '1fr'
-      }
+  '@media (max-width: 1024px)': {
+    Photographs: {
+      gridTemplateColumns: '1fr 1fr'
+    }
+  },
+  '@media (max-width: 768px)': {
+    Photographs: {
+      gridTemplateColumns: '1fr'
+    }
   },
 })
 

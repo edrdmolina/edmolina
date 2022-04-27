@@ -30,12 +30,16 @@ import BendingArc from './Documents/Photos/BendingArc.jpg';
 import TheLandmark from './Documents/Photos/The-Landmark.jpg';
 import SinnersParadise from './Documents/Photos/Sinners-Paradise.jpg';
 import LoopRoadCar from './Documents/Photos/loopRoadCar.jpg';
-import BokTowerPond from './Documents/Photos/BokTowerPond.jpg'
-import GreenHouseLunch from './Documents/Photos/GreenHouseLunch.jpg'
-import CannonLookOut from './Documents/Photos/CannonLookOut.jpg'
-import ThroughTheTrees from './Documents/Photos/ThroughTheTrees.jpg'
-import ChevyBelAir from './Documents/Photos/ChevyBelAir.jpg'
-import ChevyBelAir2 from './Documents/Photos/ChevyBelAir2.jpg'
+import BokTowerPond from './Documents/Photos/BokTowerPond.jpg';
+import GreenHouseLunch from './Documents/Photos/GreenHouseLunch.jpg';
+import CannonLookOut from './Documents/Photos/CannonLookOut.jpg';
+import ThroughTheTrees from './Documents/Photos/ThroughTheTrees.jpg';
+import ChevyBelAir from './Documents/Photos/ChevyBelAir.jpg';
+import ChevyBelAir2 from './Documents/Photos/ChevyBelAir2.jpg';
+import BuildingBlocks from './Documents/Photos/BuildingBlocks.jpg';
+import StPetePelican from './Documents/Photos/StPetePelican.jpg';
+import InWithTheNew from './Documents/Photos/InWithTheNew.jpg';
+import ChurchInTheCity from './Documents/Photos/ChurchInTheCity.jpg';
 
 const PortfolioData = {
     contact: {
@@ -256,6 +260,13 @@ const PortfolioData = {
             image: GreenHouseLunch
         },
         {
+            name: 'Building Blocks',
+            location: 'Pike Place Seattle',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Ultramax 400',
+            image: BuildingBlocks
+        },
+        {
             name: 'Cannon Beach Lookout',
             location: 'Ecola State Park Oregon',
             camera: 'Pentax K1000',
@@ -289,6 +300,27 @@ const PortfolioData = {
             camera: 'Pentax K1000',
             filmStock: 'Kodak Ultramax 400',
             image: BokTowerPond
+        },
+        {
+            name: 'St. Petersburg Pelican',
+            location: 'St. Petersburg Pier',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Ultramax 400',
+            image: StPetePelican
+        },
+        {
+            name: 'In With The New',
+            location: 'Downtown St. Petersburg',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Ultramax 400',
+            image: InWithTheNew
+        },
+        {
+            name: 'Church In The City',
+            location: 'Downtown St. Petersburg',
+            camera: 'Pentax K1000',
+            filmStock: 'Kodak Ultramax 400',
+            image: ChurchInTheCity
         },
 
     ]
