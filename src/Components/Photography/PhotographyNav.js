@@ -21,16 +21,23 @@ const useStyles = createUseStyles({
     transition: 'background-color 0.35s linear',
     paddingTop: '0.5rem',
 
-    '& a': {
-      textDecoration: 'none',
-      color: 'white',
-      cursor: 'pointer',
-      margin: '0 2rem',
+    '& nav': {
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
 
-      '&:hover': {
-        textDecoration: 'underline'
-      }
+      '& a, p': {
+        textDecoration: 'none',
+        color: 'white',
+        cursor: 'pointer',
+        margin: '0 1rem',
+  
+        '&:hover': {
+          textDecoration: 'underline'
+        }
+      },
     },
+
   },
   Icon: {
     height: '2.5rem',
@@ -61,7 +68,10 @@ function PhotographyNav() {
   return (
     <nav id='Navbar' className={classes.Navbar} style={{ backgroundColor: isPastHero ? '#0D0D0D8F' : '' }}>
       <img src={Icon} alt="Eduardo Molina's Logo" className={classes.Icon} onClick={ () => scrollTo('Header') }/>
-      <a href='/'>Web Development</a>
+      <nav>
+        <a href='/'>Web Development</a>
+        <p onClick={ () => scrollTo('Contact') }>Contact</p>
+      </nav>
     </nav>
   )
 }
